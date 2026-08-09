@@ -1,0 +1,651 @@
+/* ================================================================
+   KPI METRIC CARDS STYLES
+   ================================================================ */
+
+/* ── Card Grid ─────────────────────────────────────────────────── */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+@media (max-width: 1200px) {
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .kpi-grid { grid-template-columns: 1fr; }
+}
+
+/* ── Base KPI Card ─────────────────────────────────────────────── */
+.kpi-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: fadeInUp 0.5s ease backwards;
+}
+
+.kpi-card:nth-child(1) { animation-delay: 0.05s; }
+.kpi-card:nth-child(2) { animation-delay: 0.10s; }
+.kpi-card:nth-child(3) { animation-delay: 0.15s; }
+.kpi-card:nth-child(4) { animation-delay: 0.20s; }
+
+.kpi-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-hover);
+}
+
+/* ── Colored Variants ──────────────────────────────────────────── */
+.kpi-card--blue:hover   { box-shadow: var(--glow-blue), 0 20px 40px rgba(0,0,0,0.4); border-color: rgba(59, 130, 246, 0.5); }
+.kpi-card--red:hover    { box-shadow: var(--glow-critical), 0 20px 40px rgba(0,0,0,0.4); border-color: rgba(239, 68, 68, 0.5); }
+.kpi-card--green:hover  { box-shadow: 0 0 20px rgba(34, 197, 94, 0.3), 0 20px 40px rgba(0,0,0,0.4); border-color: rgba(34, 197, 94, 0.5); }
+.kpi-card--purple:hover { box-shadow: var(--glow-purple), 0 20px 40px rgba(0,0,0,0.4); border-color: rgba(139, 92, 246, 0.5); }
+
+/* Corner accent glow */
+.kpi-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.kpi-card--blue::before   { background: linear-gradient(90deg, transparent, var(--accent-blue), transparent); }
+.kpi-card--red::before    { background: linear-gradient(90deg, transparent, var(--critical), transparent); }
+.kpi-card--green::before  { background: linear-gradient(90deg, transparent, var(--low), transparent); }
+.kpi-card--purple::before { background: linear-gradient(90deg, transparent, var(--accent-purple), transparent); }
+
+.kpi-card:hover::before { opacity: 1; }
+
+/* Background decorative glow circle */
+.kpi-card::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  opacity: 0;
+  filter: blur(40px);
+  transition: opacity var(--transition-slow);
+  pointer-events: none;
+}
+
+.kpi-card--blue::after   { background: var(--accent-blue); }
+.kpi-card--red::after    { background: var(--critical); }
+.kpi-card--green::after  { background: var(--low); }
+.kpi-card--purple::after { background: var(--accent-purple); }
+
+.kpi-card:hover::after { opacity: 0.15; }
+
+/* ── Card Header (icon + label) ───────────────────────────────── */
+.kpi-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.kpi-card__icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.kpi-card--blue .kpi-card__icon-wrap   { background: rgba(59, 130, 246, 0.15);  color: var(--accent-blue); }
+.kpi-card--red .kpi-card__icon-wrap    { background: rgba(239, 68, 68, 0.15);   color: var(--critical); }
+.kpi-card--green .kpi-card__icon-wrap  { background: rgba(34, 197, 94, 0.15);   color: var(--low); }
+.kpi-card--purple .kpi-card__icon-wrap { background: rgba(139, 92, 246, 0.15);  color: var(--accent-purple); }
+
+.kpi-card__trend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 99px;
+}
+
+.kpi-card__trend--up   { color: var(--low);      background: rgba(34, 197, 94, 0.1); }
+.kpi-card__trend--down { color: var(--critical);  background: rgba(239, 68, 68, 0.1); }
+
+/* ── Card Content ──────────────────────────────────────────────── */
+.kpi-card__value {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 6px;
+  animation: countUp 0.6s ease backwards;
+}
+
+.kpi-card--blue .kpi-card__value   { color: var(--neon-blue); }
+.kpi-card--red .kpi-card__value    { color: var(--critical); }
+.kpi-card--green .kpi-card__value  { color: var(--low); }
+.kpi-card--purple .kpi-card__value { color: var(--accent-purple); }
+
+.kpi-card__label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+/* ── Mini Sparkline Bar ────────────────────────────────────────── */
+.kpi-card__bar-track {
+  height: 3px;
+  background: var(--bg-elevated);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.kpi-card__bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 1s ease;
+}
+
+.kpi-card--blue .kpi-card__bar-fill   { background: linear-gradient(90deg, var(--accent-blue-dim), var(--accent-blue)); }
+.kpi-card--red .kpi-card__bar-fill    { background: linear-gradient(90deg, var(--critical-dim), var(--critical)); }
+.kpi-card--green .kpi-card__bar-fill  { background: linear-gradient(90deg, #166534, var(--low)); }
+.kpi-card--purple .kpi-card__bar-fill { background: linear-gradient(90deg, #4c1d95, var(--accent-purple)); }
+
+/* ── Sub-info row ──────────────────────────────────────────────── */
+.kpi-card__sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ================================================================
+   EXPORT / CTA CARD
+   ================================================================ */
+
+.export-card {
+  background: linear-gradient(135deg, #0d1f3c 0%, #0a1628 50%, #0d1f3c 100%);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: fadeInUp 0.5s ease 0.3s backwards;
+}
+
+/* Animated scan line */
+.export-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+  animation: scanLine 3s linear infinite;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.export-card:hover::before { opacity: 1; }
+
+/* Subtle grid overlay */
+.export-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+  pointer-events: none;
+}
+
+.export-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow:
+    0 0 30px rgba(59, 130, 246, 0.2),
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(59, 130, 246, 0.1);
+}
+
+.export-card:active {
+  transform: translateY(-1px) scale(0.995);
+}
+
+.export-card__info {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.export-card__info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.export-card__info p {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.export-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.export-card__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.04);
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.export-card__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.export-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.35);
+  position: relative;
+  overflow: hidden;
+}
+
+.export-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.export-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5);
+}
+
+.export-btn:hover::before { opacity: 1; }
+
+.export-btn span, .export-btn svg {
+  position: relative;
+  z-index: 1;
+}
+
+.export-btn:active {
+  transform: scale(0.97);
+}
+
+.export-card__format-options {
+  display: flex;
+  gap: 6px;
+}
+
+.format-pill {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  letter-spacing: 0.05em;
+  background: var(--bg-raised);
+}
+
+.format-pill:hover,
+.format-pill.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: var(--accent-blue);
+  color: var(--text-accent);
+}
+
+/* ================================================================
+   CHARTS & TABLES SECTION
+   ================================================================ */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+@media (max-width: 1100px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+}
+
+.dashboard-grid-3col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+@media (max-width: 1100px) {
+  .dashboard-grid-3col { grid-template-columns: 1fr; }
+}
+
+/* ── Panel / Widget Card ───────────────────────────────────────── */
+.panel {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  animation: fadeInUp 0.5s ease backwards;
+  transition: border-color var(--transition-base);
+}
+
+.panel:hover {
+  border-color: var(--border-hover);
+}
+
+.panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px var(--spacing-lg);
+  border-bottom: 1px solid var(--border);
+}
+
+.panel__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.panel__title-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.panel__action-btn {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: inherit;
+}
+
+.panel__action-btn:hover {
+  border-color: var(--border-hover);
+  color: var(--text-secondary);
+}
+
+.panel__action-btn.active {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: rgba(59, 130, 246, 0.3);
+  color: var(--text-accent);
+}
+
+.panel__body {
+  padding: var(--spacing-lg);
+}
+
+/* ── Vulnerability Table ───────────────────────────────────────── */
+.vuln-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vuln-table th {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.vuln-table td {
+  padding: 12px 14px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  vertical-align: middle;
+}
+
+.vuln-table tr:last-child td { border-bottom: none; }
+
+.vuln-table tbody tr {
+  transition: background var(--transition-fast);
+  cursor: pointer;
+}
+
+.vuln-table tbody tr:hover {
+  background: var(--bg-raised);
+}
+
+.vuln-table tbody tr:hover td {
+  color: var(--text-primary);
+}
+
+/* ── Severity Badge ────────────────────────────────────────────── */
+.severity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 99px;
+}
+
+.severity-badge--critical { background: rgba(239, 68, 68, 0.15);  color: var(--critical); border: 1px solid rgba(239, 68, 68, 0.3); }
+.severity-badge--high     { background: rgba(249, 115, 22, 0.15); color: var(--high);     border: 1px solid rgba(249, 115, 22, 0.3); }
+.severity-badge--medium   { background: rgba(234, 179, 8, 0.15);  color: var(--medium);   border: 1px solid rgba(234, 179, 8, 0.3); }
+.severity-badge--low      { background: rgba(34, 197, 94, 0.15);  color: var(--low);      border: 1px solid rgba(34, 197, 94, 0.3); }
+.severity-badge--info     { background: rgba(59, 130, 246, 0.15); color: var(--info);     border: 1px solid rgba(59, 130, 246, 0.3); }
+
+/* ── CVE Score ─────────────────────────────────────────────────── */
+.cvss-score {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ── Status indicators ─────────────────────────────────────────── */
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot--live    { background: var(--low);      box-shadow: 0 0 6px var(--low); animation: pulseDot 2s ease-in-out infinite; }
+.status-dot--warning { background: var(--medium);   box-shadow: 0 0 6px var(--medium); }
+.status-dot--offline { background: var(--text-muted); }
+.status-dot--critical{ background: var(--critical); box-shadow: 0 0 6px var(--critical); animation: pulseDot 1.5s ease-in-out infinite; }
+
+/* ── Threat List Items ─────────────────────────────────────────── */
+.threat-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  transition: background var(--transition-fast);
+  cursor: pointer;
+}
+
+.threat-item:last-child { border-bottom: none; }
+
+.threat-item:hover {
+  background: rgba(255,255,255,0.02);
+  border-radius: var(--radius-sm);
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.threat-item__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.threat-item__content { flex: 1; min-width: 0; }
+
+.threat-item__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.threat-item__desc {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.threat-item__time {
+  font-size: 10px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── Health Score Ring ─────────────────────────────────────────── */
+.health-ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* ── Chart container ───────────────────────────────────────────── */
+.chart-container {
+  width: 100%;
+}
+
+/* ── Risk Distribution Bar ─────────────────────────────────────── */
+.risk-dist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.risk-dist__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.risk-dist__label {
+  width: 60px;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+
+.risk-dist__track {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-elevated);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.risk-dist__fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.risk-dist__count {
+  width: 28px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: right;
+  font-family: 'JetBrains Mono', monospace;
+}
