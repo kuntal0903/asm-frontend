@@ -1,0 +1,4533 @@
+{
+  "scan_id": "dde785de-a08d-4c63-bea9-8b2efdf77c03",
+  "target_domain": "tesla.com",
+  "status": "completed",
+  "started_at": "2026-08-09T03:46:08.335898Z",
+  "completed_at": "2026-08-09T03:46:25.687517Z",
+  "duration_seconds": 17.35,
+  "total_assets_found": 124,
+  "collector_results": {
+    "dns": {
+      "status": "success",
+      "collector_name": "dns",
+      "execution_time": 2.4,
+      "source": "dnspython",
+      "raw_data": {
+        "domain": "tesla.com",
+        "records": {
+          "A": [
+            {
+              "value": "23.40.100.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.49.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.48.207",
+              "ttl": 1
+            },
+            {
+              "value": "23.7.244.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.51.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.50.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.55.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.54.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.53.207",
+              "ttl": 1
+            },
+            {
+              "value": "2.18.52.207",
+              "ttl": 1
+            }
+          ],
+          "AAAA": [
+            {
+              "value": "64:ff9b::212:34cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::1728:64cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:31cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:30cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::1707:f4cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:33cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:32cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:37cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:36cf",
+              "ttl": 1
+            },
+            {
+              "value": "64:ff9b::212:35cf",
+              "ttl": 1
+            }
+          ],
+          "MX": [
+            {
+              "value": "10 tesla-com.mail.protection.outlook.com.",
+              "ttl": 300
+            }
+          ],
+          "TXT": [
+            {
+              "value": "\"_quuerjb9mywulmdygnzgnt9awyzm15c\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"traction-guest=b4f7ad59-bf17-4b3c-8b36-9c2d28f1de32\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"ms-domain-verification=e335cec9-0ff5-4a54-b8bc-8966a8d146db\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"atlassian-domain-verification=FuJL8qfcWp7BKpnaomRV1Vmay09Vt0rdhikq9Gh/CwPYjsvTIwkrhaVAX1idqUMl\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"55zNJIDU0xk94IfGJtL+Hh+wje5JzOS6GY+ntggZF908AUsx0LBKgr+Nln3CgZEUifxSuN09M05jYpdbd6+cpw==\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"_f32sd18rpksw3zh1hgbhaulpv016hoh\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"logmein-verification-code=JFAnsPovogeJ4IeW5MXCU3r0C\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"bugcrowd-verification=40bd5dd89a6e4073ca9bc76feac3a47b\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"dell-technologies-domain-verification=tesla.com_c363f56d-9650-430a-82d3-04ac2257c64a_1756487968\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"jamf-site-verification=u4x3LuqSfpoLn5nJ0zMd5g\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"domain-verification=0f075f7f33bd0e577c0a56c5bb071f9eedadba45f32da11304913c6afd4b99c7\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"google-site-verification=f1YoSQ3nrxPHwlfkwT9Mj_7M_rzQ2RqCPBYHJ9CQNlY  \"",
+              "ttl": 1
+            },
+            {
+              "value": "\"traction-guest=c8bad9fc-4b36-4f6d-944e-783ed41b34b7\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"ms-domain-verification=820e4be7-563e-4f52-b73a-5c9ecdd2fda4\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"onetrust-domain-verification=480735b10e124e23916192d7e4321902\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"cloudflare_dashboard_sso=5c0b681b716d2de0666f5a564a4d9c0d\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"atlassian-domain-verification=U31RjXDO5NBJROoOVpVEsKJ7daGpXuXPDF8HeqlmvXUKOtTao652TOMtejHrohKB\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"apple-domain-verification=C9J7eOtEbm7Dqr88\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"apple-domain-verification=CHZ8RLPKu4dlRxlaNa_nR9oA2MjZ1n2fiE9s0QlbRO8\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"T0E0S29854\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"adobe-sign-verification=efb2da198047b7a154bd604d2721038b\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"logmein-domain-confirmation=9zxwVn2buGWrLtU24J88\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"google-site-verification=Y7lbse5bSatjXaqSBOWXjsit4mOp9cQzfLDpnQUSZlg\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"MS=ms22358213\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"_w19nckjurfa4aldim48vtbrxsq1phnv\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"v=spf1 ip4:54.240.84.225/32 ip4:54.240.84.226/31 ip4:54.240.84.228/30 ip4:54.240.84.232/29 ip4:54.240.84.240/29 ip4:54.240.84.248/30 ip4:54.240.84.252/32 ip4:44.239.249.139 ip4:52.24.70.112 ip4:34.223.204.78 ip4:213.244.145.203 ip4:213.244.145.219 ip4:213\" \".244.145.204 ip4:213.244.145.220 ip4:8.47.24.203 ip4:8.47.24.219 ip4:8.47.24.204 ip4:8.47.24.220 ip4:8.45.124.203 ip4:8.45.124.219 ip4:8.45.124.204 ip4:8.45.124.220 ip4:8.21.14.203 ip4:8.21.14.219 ip4:8.21.14.204 ip4:8.21.14.220 ip4:8.21.14.194 ip4:8.21.1\" \"4.211 ip4:212.49.145.0/24 ip4:91.103.52.0/22 ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:167.89.90.62 ip4:158.228.129.79 ip4:216.81.144.165 ip4:117.50.14.178 ip4:117\" \".50.35.199 ip4:54.240.42.110 ip4:54.240.42.111 ip4:199.71.239.178 ip4:67.216.183.10 ip4:8.43.178.222 ip4:64.95.144.196 ip4:199.71.239.52 include:u13494342.wl093.sendgrid.net include:spf.protection.outlook.com include:mail.zendesk.com include:_spfsn.teslam\" \"otors.com include:_spf.qualtrics.com include:_spf.ultipro.com include:_spf.psm.knowbe4.com include:spf1.sendcloud.org include:spf2.sendcloud.org -all\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"zapier-domain-verification-challenge=64e810e8-0fe1-4de0-b104-229592811c5b\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"teamviewer-sso-verification=2fc989f75b19494fab5eb0e2c22dd625\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"SFMC-qkAv7SvlQaslp7NEALX8t68s_AZWOQB6ThKQS5l5\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"_i88zzpi9e3jr0xglot953efk0ui36y5\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"google-site-verification=Xg2DEUg2oCz1q9RMx8gh2htHK16_GG9cZXY_eyeSf6w\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"onetrust-domain-verification=79a1328740f44bc48dd97ab52c0c3377\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"cursor-domain-verification-6kgt2s=sxbxrRmk2tNjItWtmh1swmBM0\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"adobe-idp-site-verification=321c026a-3a8c-4206-a1fa-391a59585c54\"",
+              "ttl": 1
+            },
+            {
+              "value": "\"docker-verification=74d1ec4e-a7a6-48a7-9568-9bd0faac833f\"",
+              "ttl": 1
+            }
+          ],
+          "NS": [
+            {
+              "value": "a7-66.akam.net.",
+              "ttl": 85888
+            },
+            {
+              "value": "a28-65.akam.net.",
+              "ttl": 85888
+            },
+            {
+              "value": "a1-12.akam.net.",
+              "ttl": 85888
+            },
+            {
+              "value": "a10-67.akam.net.",
+              "ttl": 85888
+            },
+            {
+              "value": "edns69.ultradns.net.",
+              "ttl": 85888
+            },
+            {
+              "value": "edns69.ultradns.com.",
+              "ttl": 85888
+            },
+            {
+              "value": "edns69.ultradns.biz.",
+              "ttl": 85888
+            },
+            {
+              "value": "edns69.ultradns.org.",
+              "ttl": 85888
+            },
+            {
+              "value": "a9-67.akam.net.",
+              "ttl": 85888
+            },
+            {
+              "value": "a12-64.akam.net.",
+              "ttl": 85888
+            }
+          ],
+          "SOA": [
+            {
+              "value": "edns69.ultradns.com. domain.teslamotors.com. 2016025310 1800 86400 86400 86400",
+              "ttl": 84711
+            }
+          ],
+          "CNAME": [],
+          "PTR": [
+            {
+              "type": "PTR",
+              "ip": "23.40.100.207",
+              "value": "a23-40-100-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37929
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.49.207",
+              "value": "a2-18-49-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37930
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.48.207",
+              "value": "a2-18-48-207.deploy.static.akamaitechnologies.com",
+              "ttl": 43200
+            },
+            {
+              "type": "PTR",
+              "ip": "23.7.244.207",
+              "value": "a23-7-244-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37929
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.51.207",
+              "value": "a2-18-51-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37925
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.50.207",
+              "value": "a2-18-50-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37926
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.55.207",
+              "value": "a2-18-55-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37923
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.54.207",
+              "value": "a2-18-54-207.deploy.static.akamaitechnologies.com",
+              "ttl": 38277
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.53.207",
+              "value": "a2-18-53-207.deploy.static.akamaitechnologies.com",
+              "ttl": 41511
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.52.207",
+              "value": "a2-18-52-207.deploy.static.akamaitechnologies.com",
+              "ttl": 43200
+            }
+          ]
+        },
+        "errors": []
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "records": {
+          "A": [
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "23.40.100.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.49.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.48.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "23.7.244.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.51.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.50.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.55.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.54.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.53.207"
+            },
+            {
+              "type": "A",
+              "ttl": 1,
+              "value": "2.18.52.207"
+            }
+          ],
+          "AAAA": [
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:34cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::1728:64cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:31cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:30cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::1707:f4cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:33cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:32cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:37cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:36cf"
+            },
+            {
+              "type": "AAAA",
+              "ttl": 1,
+              "value": "64:ff9b::212:35cf"
+            }
+          ],
+          "MX": [
+            {
+              "type": "MX",
+              "ttl": 300,
+              "value": "10 tesla-com.mail.protection.outlook.com.",
+              "priority": 10,
+              "exchange": "tesla-com.mail.protection.outlook.com"
+            }
+          ],
+          "TXT": [
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"_quuerjb9mywulmdygnzgnt9awyzm15c\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"traction-guest=b4f7ad59-bf17-4b3c-8b36-9c2d28f1de32\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"ms-domain-verification=e335cec9-0ff5-4a54-b8bc-8966a8d146db\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"atlassian-domain-verification=FuJL8qfcWp7BKpnaomRV1Vmay09Vt0rdhikq9Gh/CwPYjsvTIwkrhaVAX1idqUMl\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"55zNJIDU0xk94IfGJtL+Hh+wje5JzOS6GY+ntggZF908AUsx0LBKgr+Nln3CgZEUifxSuN09M05jYpdbd6+cpw==\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"_f32sd18rpksw3zh1hgbhaulpv016hoh\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"logmein-verification-code=JFAnsPovogeJ4IeW5MXCU3r0C\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"bugcrowd-verification=40bd5dd89a6e4073ca9bc76feac3a47b\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"dell-technologies-domain-verification=tesla.com_c363f56d-9650-430a-82d3-04ac2257c64a_1756487968\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"jamf-site-verification=u4x3LuqSfpoLn5nJ0zMd5g\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"domain-verification=0f075f7f33bd0e577c0a56c5bb071f9eedadba45f32da11304913c6afd4b99c7\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"google-site-verification=f1YoSQ3nrxPHwlfkwT9Mj_7M_rzQ2RqCPBYHJ9CQNlY  \""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"traction-guest=c8bad9fc-4b36-4f6d-944e-783ed41b34b7\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"ms-domain-verification=820e4be7-563e-4f52-b73a-5c9ecdd2fda4\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"onetrust-domain-verification=480735b10e124e23916192d7e4321902\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"cloudflare_dashboard_sso=5c0b681b716d2de0666f5a564a4d9c0d\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"atlassian-domain-verification=U31RjXDO5NBJROoOVpVEsKJ7daGpXuXPDF8HeqlmvXUKOtTao652TOMtejHrohKB\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"apple-domain-verification=C9J7eOtEbm7Dqr88\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"apple-domain-verification=CHZ8RLPKu4dlRxlaNa_nR9oA2MjZ1n2fiE9s0QlbRO8\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"T0E0S29854\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"adobe-sign-verification=efb2da198047b7a154bd604d2721038b\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"logmein-domain-confirmation=9zxwVn2buGWrLtU24J88\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"google-site-verification=Y7lbse5bSatjXaqSBOWXjsit4mOp9cQzfLDpnQUSZlg\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"MS=ms22358213\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"_w19nckjurfa4aldim48vtbrxsq1phnv\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"v=spf1 ip4:54.240.84.225/32 ip4:54.240.84.226/31 ip4:54.240.84.228/30 ip4:54.240.84.232/29 ip4:54.240.84.240/29 ip4:54.240.84.248/30 ip4:54.240.84.252/32 ip4:44.239.249.139 ip4:52.24.70.112 ip4:34.223.204.78 ip4:213.244.145.203 ip4:213.244.145.219 ip4:213\" \".244.145.204 ip4:213.244.145.220 ip4:8.47.24.203 ip4:8.47.24.219 ip4:8.47.24.204 ip4:8.47.24.220 ip4:8.45.124.203 ip4:8.45.124.219 ip4:8.45.124.204 ip4:8.45.124.220 ip4:8.21.14.203 ip4:8.21.14.219 ip4:8.21.14.204 ip4:8.21.14.220 ip4:8.21.14.194 ip4:8.21.1\" \"4.211 ip4:212.49.145.0/24 ip4:91.103.52.0/22 ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:167.89.90.62 ip4:158.228.129.79 ip4:216.81.144.165 ip4:117.50.14.178 ip4:117\" \".50.35.199 ip4:54.240.42.110 ip4:54.240.42.111 ip4:199.71.239.178 ip4:67.216.183.10 ip4:8.43.178.222 ip4:64.95.144.196 ip4:199.71.239.52 include:u13494342.wl093.sendgrid.net include:spf.protection.outlook.com include:mail.zendesk.com include:_spfsn.teslam\" \"otors.com include:_spf.qualtrics.com include:_spf.ultipro.com include:_spf.psm.knowbe4.com include:spf1.sendcloud.org include:spf2.sendcloud.org -all\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"zapier-domain-verification-challenge=64e810e8-0fe1-4de0-b104-229592811c5b\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"teamviewer-sso-verification=2fc989f75b19494fab5eb0e2c22dd625\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"SFMC-qkAv7SvlQaslp7NEALX8t68s_AZWOQB6ThKQS5l5\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"_i88zzpi9e3jr0xglot953efk0ui36y5\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"google-site-verification=Xg2DEUg2oCz1q9RMx8gh2htHK16_GG9cZXY_eyeSf6w\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"onetrust-domain-verification=79a1328740f44bc48dd97ab52c0c3377\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"cursor-domain-verification-6kgt2s=sxbxrRmk2tNjItWtmh1swmBM0\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"adobe-idp-site-verification=321c026a-3a8c-4206-a1fa-391a59585c54\""
+            },
+            {
+              "type": "TXT",
+              "ttl": 1,
+              "value": "\"docker-verification=74d1ec4e-a7a6-48a7-9568-9bd0faac833f\""
+            }
+          ],
+          "NS": [
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "a7-66.akam.net."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "a28-65.akam.net."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "a1-12.akam.net."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "a10-67.akam.net."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "edns69.ultradns.net."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "edns69.ultradns.com."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "edns69.ultradns.biz."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "edns69.ultradns.org."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "a9-67.akam.net."
+            },
+            {
+              "type": "NS",
+              "ttl": 85888,
+              "value": "a12-64.akam.net."
+            }
+          ],
+          "SOA": [
+            {
+              "type": "SOA",
+              "ttl": 84711,
+              "value": "edns69.ultradns.com. domain.teslamotors.com. 2016025310 1800 86400 86400 86400",
+              "mname": "edns69.ultradns.com",
+              "rname": "domain.teslamotors.com",
+              "serial": 2016025310,
+              "refresh": 1800,
+              "retry": 86400,
+              "expire": 86400,
+              "minimum": 86400
+            }
+          ],
+          "CNAME": [],
+          "PTR": [
+            {
+              "type": "PTR",
+              "ip": "23.40.100.207",
+              "value": "a23-40-100-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37929
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.49.207",
+              "value": "a2-18-49-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37930
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.48.207",
+              "value": "a2-18-48-207.deploy.static.akamaitechnologies.com",
+              "ttl": 43200
+            },
+            {
+              "type": "PTR",
+              "ip": "23.7.244.207",
+              "value": "a23-7-244-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37929
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.51.207",
+              "value": "a2-18-51-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37925
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.50.207",
+              "value": "a2-18-50-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37926
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.55.207",
+              "value": "a2-18-55-207.deploy.static.akamaitechnologies.com",
+              "ttl": 37923
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.54.207",
+              "value": "a2-18-54-207.deploy.static.akamaitechnologies.com",
+              "ttl": 38277
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.53.207",
+              "value": "a2-18-53-207.deploy.static.akamaitechnologies.com",
+              "ttl": 41511
+            },
+            {
+              "type": "PTR",
+              "ip": "2.18.52.207",
+              "value": "a2-18-52-207.deploy.static.akamaitechnologies.com",
+              "ttl": 43200
+            }
+          ]
+        },
+        "record_counts": {
+          "A": 10,
+          "AAAA": 10,
+          "MX": 1,
+          "TXT": 35,
+          "NS": 10,
+          "SOA": 1,
+          "CNAME": 0,
+          "PTR": 10
+        },
+        "total_records": 77
+      },
+      "errors": [],
+      "confidence": 1.0
+    },
+    "nameserver": {
+      "status": "success",
+      "collector_name": "nameserver",
+      "execution_time": 3.833,
+      "source": "dnspython",
+      "raw_data": {
+        "domain": "tesla.com",
+        "nameservers": [
+          {
+            "nameserver": "edns69.ultradns.org",
+            "ips": [
+              "204.74.111.69"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a9-67.akam.net",
+            "ips": [
+              "184.85.248.67"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a12-64.akam.net",
+            "ips": [
+              "184.26.160.64"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a7-66.akam.net",
+            "ips": [
+              "23.61.199.66"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a28-65.akam.net",
+            "ips": [
+              "95.100.173.65"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a1-12.akam.net",
+            "ips": [
+              "193.108.91.12"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a10-67.akam.net",
+            "ips": [
+              "96.7.50.67"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "edns69.ultradns.net",
+            "ips": [
+              "204.74.110.69"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "edns69.ultradns.com",
+            "ips": [
+              "204.74.66.69"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "edns69.ultradns.biz",
+            "ips": [
+              "204.74.67.69"
+            ],
+            "zone_transfer": false
+          }
+        ],
+        "errors": []
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "nameservers": [
+          {
+            "nameserver": "edns69.ultradns.org",
+            "ips": [
+              "204.74.111.69"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a9-67.akam.net",
+            "ips": [
+              "184.85.248.67"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a12-64.akam.net",
+            "ips": [
+              "184.26.160.64"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a7-66.akam.net",
+            "ips": [
+              "23.61.199.66"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a28-65.akam.net",
+            "ips": [
+              "95.100.173.65"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a1-12.akam.net",
+            "ips": [
+              "193.108.91.12"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "a10-67.akam.net",
+            "ips": [
+              "96.7.50.67"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "edns69.ultradns.net",
+            "ips": [
+              "204.74.110.69"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "edns69.ultradns.com",
+            "ips": [
+              "204.74.66.69"
+            ],
+            "zone_transfer": false
+          },
+          {
+            "nameserver": "edns69.ultradns.biz",
+            "ips": [
+              "204.74.67.69"
+            ],
+            "zone_transfer": false
+          }
+        ],
+        "total_nameservers": 10,
+        "zone_transfer_vulnerable": false
+      },
+      "errors": [],
+      "confidence": 1.0
+    },
+    "mail": {
+      "status": "success",
+      "collector_name": "mail",
+      "execution_time": 2.171,
+      "source": "dnspython",
+      "raw_data": {
+        "domain": "tesla.com",
+        "mx": [
+          {
+            "priority": 10,
+            "exchange": "tesla-com.mail.protection.outlook.com",
+            "ttl": 1
+          }
+        ],
+        "spf": "v=spf1 ip4:54.240.84.225/32 ip4:54.240.84.226/31 ip4:54.240.84.228/30 ip4:54.240.84.232/29 ip4:54.240.84.240/29 ip4:54.240.84.248/30 ip4:54.240.84.252/32 ip4:44.239.249.139 ip4:52.24.70.112 ip4:34.223.204.78 ip4:213.244.145.203 ip4:213.244.145.219 ip4:213\" \".244.145.204 ip4:213.244.145.220 ip4:8.47.24.203 ip4:8.47.24.219 ip4:8.47.24.204 ip4:8.47.24.220 ip4:8.45.124.203 ip4:8.45.124.219 ip4:8.45.124.204 ip4:8.45.124.220 ip4:8.21.14.203 ip4:8.21.14.219 ip4:8.21.14.204 ip4:8.21.14.220 ip4:8.21.14.194 ip4:8.21.1\" \"4.211 ip4:212.49.145.0/24 ip4:91.103.52.0/22 ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:167.89.90.62 ip4:158.228.129.79 ip4:216.81.144.165 ip4:117.50.14.178 ip4:117\" \".50.35.199 ip4:54.240.42.110 ip4:54.240.42.111 ip4:199.71.239.178 ip4:67.216.183.10 ip4:8.43.178.222 ip4:64.95.144.196 ip4:199.71.239.52 include:u13494342.wl093.sendgrid.net include:spf.protection.outlook.com include:mail.zendesk.com include:_spfsn.teslam\" \"otors.com include:_spf.qualtrics.com include:_spf.ultipro.com include:_spf.psm.knowbe4.com include:spf1.sendcloud.org include:spf2.sendcloud.org -all",
+        "dmarc": "v=DMARC1; p=reject; pct=100; rua=mailto:n2ju30bc@ag.dmarcian.com; ruf=mailto:n2ju30bc@fr.dmarcian.com; fo=1",
+        "dkim": [
+          {
+            "selector": "selector1",
+            "record": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDrdHMOmLStiYdoFToER3wxvLfG5acW0LIlX2gXCvWgl8T4XFHQiTKQVWBnNGpe0xvjtCq19erx6nBvgNC8aGSGz6cbBqlE+nmBlRSgjbWGI1NvtfBLBHK3y2Lt3S6S/y8b21RQunB9MyOAMOQiCsuT5HeIWtMexzXMd1WstdSjQIDAQAB;"
+          },
+          {
+            "selector": "mail",
+            "record": "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFnZ42r5s08PJHkas3ak9VywTrCV849uGT9fyye54mzJ0d9+TrZkgh/7gHwmQ6h44K3jpagDkys8RF1WIGJFqwrAsyBjvDwYzYQ6YZRjq4ICNN46Q6uhkBfp0DVjYHMyR1wFft/LdRW4o2kZKcLnO3BYvJN++bu4TDSbnm6GMBkwIDAQAB"
+          },
+          {
+            "selector": "s1",
+            "record": "k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt62P8MbQvYrpBeSCT3eluwATuB8EkEfytsoh4bG91IduePxaEad6nUesO0hbkIfDFPncjqd0/WUKLheu9wt418zsk94WMbhUPXThBcKYo+qFCYkKqbFBmKnKPwT8KHlnB4YAugtNMzv5RWefFopu3BVUnk13s7+RolqLAvDuohVTjPJBJ3XD48d9DFVFxfOx/kMx1\" \"ZHQkaEzAupA4vhyX9I/LjAKaeEco/HqWyZsWA2iPj1SDZyvS72tkH/1KVBRAe2aaRLKjxI588OkkE3tKqC2u9iA8Gl4O78QzhkKvYas5gOyPbHl09vyH1Az30W8h7bMKi5AiaImjjopNWc9QQIDAQAB"
+          },
+          {
+            "selector": "s2",
+            "record": "k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSOEE3TFmVQhaJkiEXt9oGc2AIOSURK3k28KxKTMh2y7Id+nUKS8WOyi6s4BOgxICQ9GX+ZMQykC1Va3Gak9GqR0OAri5VKLS89hbEGv1iDlmJNuLALi2U/rztFsDOsbbTMk4D2WGyMQ6kzSuviA9xngV3i6ilCSwjtNCGvXH4dQIDAQAB"
+          }
+        ]
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "mx_records": [
+          {
+            "priority": 10,
+            "exchange": "tesla-com.mail.protection.outlook.com",
+            "ttl": 1
+          }
+        ],
+        "spf_record": "v=spf1 ip4:54.240.84.225/32 ip4:54.240.84.226/31 ip4:54.240.84.228/30 ip4:54.240.84.232/29 ip4:54.240.84.240/29 ip4:54.240.84.248/30 ip4:54.240.84.252/32 ip4:44.239.249.139 ip4:52.24.70.112 ip4:34.223.204.78 ip4:213.244.145.203 ip4:213.244.145.219 ip4:213\" \".244.145.204 ip4:213.244.145.220 ip4:8.47.24.203 ip4:8.47.24.219 ip4:8.47.24.204 ip4:8.47.24.220 ip4:8.45.124.203 ip4:8.45.124.219 ip4:8.45.124.204 ip4:8.45.124.220 ip4:8.21.14.203 ip4:8.21.14.219 ip4:8.21.14.204 ip4:8.21.14.220 ip4:8.21.14.194 ip4:8.21.1\" \"4.211 ip4:212.49.145.0/24 ip4:91.103.52.0/22 ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:167.89.90.62 ip4:158.228.129.79 ip4:216.81.144.165 ip4:117.50.14.178 ip4:117\" \".50.35.199 ip4:54.240.42.110 ip4:54.240.42.111 ip4:199.71.239.178 ip4:67.216.183.10 ip4:8.43.178.222 ip4:64.95.144.196 ip4:199.71.239.52 include:u13494342.wl093.sendgrid.net include:spf.protection.outlook.com include:mail.zendesk.com include:_spfsn.teslam\" \"otors.com include:_spf.qualtrics.com include:_spf.ultipro.com include:_spf.psm.knowbe4.com include:spf1.sendcloud.org include:spf2.sendcloud.org -all",
+        "dmarc_record": "v=DMARC1; p=reject; pct=100; rua=mailto:n2ju30bc@ag.dmarcian.com; ruf=mailto:n2ju30bc@fr.dmarcian.com; fo=1",
+        "dkim_records": [
+          {
+            "selector": "selector1",
+            "record": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDrdHMOmLStiYdoFToER3wxvLfG5acW0LIlX2gXCvWgl8T4XFHQiTKQVWBnNGpe0xvjtCq19erx6nBvgNC8aGSGz6cbBqlE+nmBlRSgjbWGI1NvtfBLBHK3y2Lt3S6S/y8b21RQunB9MyOAMOQiCsuT5HeIWtMexzXMd1WstdSjQIDAQAB;"
+          },
+          {
+            "selector": "mail",
+            "record": "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFnZ42r5s08PJHkas3ak9VywTrCV849uGT9fyye54mzJ0d9+TrZkgh/7gHwmQ6h44K3jpagDkys8RF1WIGJFqwrAsyBjvDwYzYQ6YZRjq4ICNN46Q6uhkBfp0DVjYHMyR1wFft/LdRW4o2kZKcLnO3BYvJN++bu4TDSbnm6GMBkwIDAQAB"
+          },
+          {
+            "selector": "s1",
+            "record": "k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt62P8MbQvYrpBeSCT3eluwATuB8EkEfytsoh4bG91IduePxaEad6nUesO0hbkIfDFPncjqd0/WUKLheu9wt418zsk94WMbhUPXThBcKYo+qFCYkKqbFBmKnKPwT8KHlnB4YAugtNMzv5RWefFopu3BVUnk13s7+RolqLAvDuohVTjPJBJ3XD48d9DFVFxfOx/kMx1\" \"ZHQkaEzAupA4vhyX9I/LjAKaeEco/HqWyZsWA2iPj1SDZyvS72tkH/1KVBRAe2aaRLKjxI588OkkE3tKqC2u9iA8Gl4O78QzhkKvYas5gOyPbHl09vyH1Az30W8h7bMKi5AiaImjjopNWc9QQIDAQAB"
+          },
+          {
+            "selector": "s2",
+            "record": "k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSOEE3TFmVQhaJkiEXt9oGc2AIOSURK3k28KxKTMh2y7Id+nUKS8WOyi6s4BOgxICQ9GX+ZMQykC1Va3Gak9GqR0OAri5VKLS89hbEGv1iDlmJNuLALi2U/rztFsDOsbbTMk4D2WGyMQ6kzSuviA9xngV3i6ilCSwjtNCGvXH4dQIDAQAB"
+          }
+        ],
+        "mail_security_posture": {
+          "score": 100,
+          "rating": "strong",
+          "findings": [
+            "SPF configured with hard fail (-all)",
+            "DMARC policy set to reject",
+            "DKIM found for 4 selector(s)"
+          ]
+        },
+        "has_mx": true,
+        "has_spf": true,
+        "has_dmarc": true,
+        "has_dkim": true
+      },
+      "errors": [],
+      "confidence": 1.0
+    },
+    "certificate": {
+      "status": "success",
+      "collector_name": "certificate",
+      "execution_time": 1.651,
+      "source": "ssl+crt.sh",
+      "raw_data": {
+        "domain": "tesla.com",
+        "live_certificate": null,
+        "ct_entries": []
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "has_certificate": false,
+        "certificate": null,
+        "ct_log_entries": 0,
+        "san_domains": [],
+        "total_san_domains": 0
+      },
+      "errors": [],
+      "confidence": 0.3
+    },
+    "subdomain": {
+      "status": "success",
+      "collector_name": "subdomain",
+      "execution_time": 11.808,
+      "source": "crt.sh+dns_bruteforce",
+      "raw_data": {
+        "domain": "tesla.com",
+        "by_source": {
+          "crt.sh": [],
+          "dns_bruteforce": [
+            "accounts.tesla.com",
+            "auth.tesla.com",
+            "billing.tesla.com",
+            "mobile.tesla.com",
+            "pay.tesla.com",
+            "shop.tesla.com",
+            "sso.tesla.com",
+            "static.tesla.com",
+            "www.tesla.com"
+          ],
+          "certificate_san": []
+        },
+        "errors": []
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "subdomains": [
+          "accounts.tesla.com",
+          "auth.tesla.com",
+          "billing.tesla.com",
+          "mobile.tesla.com",
+          "pay.tesla.com",
+          "shop.tesla.com",
+          "sso.tesla.com",
+          "static.tesla.com",
+          "www.tesla.com"
+        ],
+        "subdomain_details": [
+          {
+            "subdomain": "accounts.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "auth.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "billing.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "mobile.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "pay.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "shop.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "sso.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "static.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          },
+          {
+            "subdomain": "www.tesla.com",
+            "sources": [
+              "dns_bruteforce"
+            ],
+            "source_count": 1
+          }
+        ],
+        "total_unique": 9,
+        "by_source_count": {
+          "crt.sh": 0,
+          "dns_bruteforce": 9,
+          "certificate_san": 0
+        },
+        "wildcard_detected": false,
+        "wildcard_ips": []
+      },
+      "errors": [],
+      "confidence": 0.7
+    },
+    "http_header": {
+      "status": "success",
+      "collector_name": "http_header",
+      "execution_time": 1.582,
+      "source": "aiohttp",
+      "raw_data": {
+        "domain": "tesla.com",
+        "https": {
+          "url": "https://tesla.com",
+          "final_url": "https://tesla.com",
+          "status_code": 403,
+          "headers": {
+            "server": "AkamaiGHost",
+            "mime-version": "1.0",
+            "content-type": "text/html",
+            "content-length": "359",
+            "expires": "Sun, 09 Aug 2026 03:46:08 GMT",
+            "x-reference-error": "18.eadc55b8.1786247167.c9134dda",
+            "date": "Sun, 09 Aug 2026 03:46:08 GMT",
+            "connection": "close",
+            "strict-transport-security": "max-age=15768000",
+            "x-ak-cache": "Error from child",
+            "permissions-policy": "interest-cohort=()"
+          },
+          "cookies": [],
+          "redirect_chain": []
+        },
+        "http": {
+          "url": "http://tesla.com",
+          "final_url": "http://tesla.com",
+          "status_code": 403,
+          "headers": {
+            "server": "AkamaiGHost",
+            "mime-version": "1.0",
+            "content-type": "text/html",
+            "content-length": "359",
+            "expires": "Sun, 09 Aug 2026 03:46:08 GMT",
+            "x-reference-error": "18.92dc55b8.1786247168.7a18cdbd",
+            "date": "Sun, 09 Aug 2026 03:46:08 GMT",
+            "connection": "close",
+            "x-ak-cache": "Error from child",
+            "permissions-policy": "interest-cohort=()"
+          },
+          "cookies": [],
+          "redirect_chain": []
+        }
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "has_https": true,
+        "has_http": true,
+        "headers": {
+          "server": "AkamaiGHost",
+          "mime-version": "1.0",
+          "content-type": "text/html",
+          "content-length": "359",
+          "expires": "Sun, 09 Aug 2026 03:46:08 GMT",
+          "x-reference-error": "18.eadc55b8.1786247167.c9134dda",
+          "date": "Sun, 09 Aug 2026 03:46:08 GMT",
+          "connection": "close",
+          "strict-transport-security": "max-age=15768000",
+          "x-ak-cache": "Error from child",
+          "permissions-policy": "interest-cohort=()"
+        },
+        "security_headers": {
+          "present": [
+            {
+              "name": "HSTS",
+              "severity": "high",
+              "description": "Enforces HTTPS connections",
+              "header": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "Permissions-Policy",
+              "severity": "low",
+              "description": "Controls browser features access",
+              "header": "permissions-policy",
+              "value": "interest-cohort=()"
+            }
+          ],
+          "missing": [
+            {
+              "name": "CSP",
+              "severity": "high",
+              "description": "Prevents XSS and injection attacks",
+              "header": "content-security-policy"
+            },
+            {
+              "name": "X-Frame-Options",
+              "severity": "medium",
+              "description": "Prevents clickjacking",
+              "header": "x-frame-options"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "severity": "medium",
+              "description": "Prevents MIME sniffing",
+              "header": "x-content-type-options"
+            },
+            {
+              "name": "Referrer-Policy",
+              "severity": "low",
+              "description": "Controls referrer information",
+              "header": "referrer-policy"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "severity": "low",
+              "description": "Legacy XSS filter (deprecated but informative)",
+              "header": "x-xss-protection"
+            }
+          ],
+          "total_present": 2,
+          "total_missing": 5,
+          "score": 29,
+          "rating": "weak"
+        },
+        "cookies": [],
+        "redirect_chain": [],
+        "final_url": "https://tesla.com",
+        "status_code": 403
+      },
+      "errors": [],
+      "confidence": 1.0
+    },
+    "ports": {
+      "status": "success",
+      "collector_name": "ports",
+      "execution_time": 3.204,
+      "source": "tcp_connect",
+      "raw_data": {
+        "target": "tesla.com",
+        "ports_scanned": 37,
+        "open_ports": [
+          {
+            "port": 80,
+            "state": "open",
+            "service": "http",
+            "protocol": "tcp"
+          },
+          {
+            "port": 443,
+            "state": "open",
+            "service": "https",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "processed_data": {
+        "target": "tesla.com",
+        "open_ports": [
+          {
+            "port": 80,
+            "state": "open",
+            "service": "http",
+            "protocol": "tcp"
+          },
+          {
+            "port": 443,
+            "state": "open",
+            "service": "https",
+            "protocol": "tcp"
+          }
+        ],
+        "total_open": 2,
+        "total_scanned": 37,
+        "open_port_numbers": [
+          80,
+          443
+        ],
+        "services_found": [
+          "http",
+          "https"
+        ]
+      },
+      "errors": [],
+      "confidence": 1.0
+    },
+    "cloud": {
+      "status": "success",
+      "collector_name": "cloud",
+      "execution_time": 0.03,
+      "source": "dns+headers+ip",
+      "raw_data": {
+        "domain": "tesla.com",
+        "evidence": [],
+        "errors": []
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "cloud_providers": [],
+        "cdn_providers": [],
+        "total_providers": 0,
+        "evidence": [],
+        "is_cloud_hosted": false,
+        "has_cdn": false
+      },
+      "errors": [],
+      "confidence": 1.0
+    },
+    "waf": {
+      "status": "success",
+      "collector_name": "waf",
+      "execution_time": 0.0,
+      "source": "http_fingerprint",
+      "raw_data": {
+        "domain": "tesla.com",
+        "headers_checked": [
+          "server",
+          "mime-version",
+          "content-type",
+          "content-length",
+          "expires",
+          "x-reference-error",
+          "date",
+          "connection",
+          "strict-transport-security",
+          "x-ak-cache",
+          "permissions-policy"
+        ],
+        "evidence": [
+          {
+            "waf": "Akamai",
+            "method": "server_header",
+            "detail": "Server: AkamaiGHost"
+          }
+        ]
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "waf_detected": true,
+        "waf_providers": [
+          "Akamai"
+        ],
+        "total_detected": 1,
+        "evidence": [
+          {
+            "waf": "Akamai",
+            "method": "server_header",
+            "detail": "Server: AkamaiGHost"
+          }
+        ]
+      },
+      "errors": [],
+      "confidence": 0.8
+    },
+    "technology": {
+      "status": "success",
+      "collector_name": "technology",
+      "execution_time": 1.29,
+      "source": "http_fingerprint",
+      "raw_data": {
+        "domain": "tesla.com",
+        "headers": {
+          "server": "AkamaiGHost",
+          "mime-version": "1.0",
+          "content-type": "text/html",
+          "content-length": "359",
+          "expires": "Sun, 09 Aug 2026 03:46:20 GMT",
+          "x-reference-error": "18.eadc55b8.1786247179.c9145dad",
+          "date": "Sun, 09 Aug 2026 03:46:20 GMT",
+          "connection": "close",
+          "strict-transport-security": "max-age=15768000",
+          "x-ak-cache": "Error from child",
+          "permissions-policy": "interest-cohort=()"
+        },
+        "status_code": 403
+      },
+      "processed_data": {
+        "domain": "tesla.com",
+        "technologies": [],
+        "categories": {},
+        "total_technologies": 0
+      },
+      "errors": [],
+      "confidence": 1.0
+    }
+  },
+  "assets": {
+    "root_domain": [
+      {
+        "id": "b2666ac6-5f79-4197-85f1-008c2f2aa616",
+        "asset_type": "root_domain",
+        "asset_value": "tesla.com",
+        "discovery_source": "system",
+        "sources": [
+          "system"
+        ],
+        "methods": [
+          "system"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662277Z",
+        "last_seen": "2026-08-09T03:46:21.662280Z",
+        "last_verified": null
+      }
+    ],
+    "dns_record": [
+      {
+        "id": "63ef20e6-d3af-4904-9121-26d3ef6c8681",
+        "asset_type": "dns_record",
+        "asset_value": "A:23.40.100.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "23.40.100.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662295Z",
+        "last_seen": "2026-08-09T03:46:21.662296Z",
+        "last_verified": null
+      },
+      {
+        "id": "dc59a14e-5e5f-4310-ab86-d021e369319b",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.49.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.49.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662310Z",
+        "last_seen": "2026-08-09T03:46:21.662310Z",
+        "last_verified": null
+      },
+      {
+        "id": "1e6728c6-241c-4bbd-862a-ceb0903021e1",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.48.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.48.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662320Z",
+        "last_seen": "2026-08-09T03:46:21.662320Z",
+        "last_verified": null
+      },
+      {
+        "id": "5c2f90b9-a188-40cc-a70d-c2515b917efb",
+        "asset_type": "dns_record",
+        "asset_value": "A:23.7.244.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "23.7.244.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662329Z",
+        "last_seen": "2026-08-09T03:46:21.662329Z",
+        "last_verified": null
+      },
+      {
+        "id": "b20e05a5-0e0f-45f4-a7b6-7f2d50dbd21d",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.51.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.51.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662337Z",
+        "last_seen": "2026-08-09T03:46:21.662338Z",
+        "last_verified": null
+      },
+      {
+        "id": "f00a7a37-7e1c-4451-829b-0b00aabd1ab8",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.50.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.50.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662352Z",
+        "last_seen": "2026-08-09T03:46:21.662352Z",
+        "last_verified": null
+      },
+      {
+        "id": "2bbd1880-d730-4fef-957c-0d648228195e",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.55.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.55.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662359Z",
+        "last_seen": "2026-08-09T03:46:21.662360Z",
+        "last_verified": null
+      },
+      {
+        "id": "212e835c-d32e-4bbb-84ea-fb0e0b789195",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.54.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.54.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662367Z",
+        "last_seen": "2026-08-09T03:46:21.662367Z",
+        "last_verified": null
+      },
+      {
+        "id": "2b72930a-a3e9-4057-9f41-91b15a8821e3",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.53.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.53.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662375Z",
+        "last_seen": "2026-08-09T03:46:21.662375Z",
+        "last_verified": null
+      },
+      {
+        "id": "9ff4a713-2fc6-4d78-8523-d2270cae2e86",
+        "asset_type": "dns_record",
+        "asset_value": "A:2.18.52.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "A",
+          "ttl": 1,
+          "value": "2.18.52.207"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662383Z",
+        "last_seen": "2026-08-09T03:46:21.662383Z",
+        "last_verified": null
+      },
+      {
+        "id": "7677eb93-f84a-4154-9b2a-73aebe4d61b5",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:34cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:34cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662393Z",
+        "last_seen": "2026-08-09T03:46:21.662394Z",
+        "last_verified": null
+      },
+      {
+        "id": "328e246f-5b53-4690-a183-867ea00bc210",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::1728:64cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::1728:64cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662404Z",
+        "last_seen": "2026-08-09T03:46:21.662405Z",
+        "last_verified": null
+      },
+      {
+        "id": "45ed1592-ab68-4a7e-8f64-1a91f09e2eae",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:31cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:31cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662413Z",
+        "last_seen": "2026-08-09T03:46:21.662413Z",
+        "last_verified": null
+      },
+      {
+        "id": "6c1f214e-57b0-41ea-be8d-f7631d013a6e",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:30cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:30cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662421Z",
+        "last_seen": "2026-08-09T03:46:21.662422Z",
+        "last_verified": null
+      },
+      {
+        "id": "9bce12d3-42c8-4c6e-809c-e30708e4ff2b",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::1707:f4cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::1707:f4cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662428Z",
+        "last_seen": "2026-08-09T03:46:21.662429Z",
+        "last_verified": null
+      },
+      {
+        "id": "1ad74fe2-b2ad-4f26-b149-55b7ade0a158",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:33cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:33cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662439Z",
+        "last_seen": "2026-08-09T03:46:21.662439Z",
+        "last_verified": null
+      },
+      {
+        "id": "9584aef0-d153-45cb-9438-abc56ec5222f",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:32cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:32cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662447Z",
+        "last_seen": "2026-08-09T03:46:21.662447Z",
+        "last_verified": null
+      },
+      {
+        "id": "ee69dbde-f055-4968-8ca0-0cf5bc21ca8f",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:37cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:37cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662496Z",
+        "last_seen": "2026-08-09T03:46:21.662497Z",
+        "last_verified": null
+      },
+      {
+        "id": "a2ee5305-1ce1-4bfe-96f7-0ecd6c89b181",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:36cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:36cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662511Z",
+        "last_seen": "2026-08-09T03:46:21.662512Z",
+        "last_verified": null
+      },
+      {
+        "id": "73eb98f3-3643-4c86-ad07-3bd608147da8",
+        "asset_type": "dns_record",
+        "asset_value": "AAAA:64:ff9b::212:35cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "AAAA",
+          "ttl": 1,
+          "value": "64:ff9b::212:35cf"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662524Z",
+        "last_seen": "2026-08-09T03:46:21.662524Z",
+        "last_verified": null
+      },
+      {
+        "id": "b832bc16-499e-42d2-9a6d-267f22ed2ba9",
+        "asset_type": "dns_record",
+        "asset_value": "MX:10 tesla-com.mail.protection.outlook.com.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "MX",
+          "ttl": 300,
+          "value": "10 tesla-com.mail.protection.outlook.com.",
+          "priority": 10,
+          "exchange": "tesla-com.mail.protection.outlook.com"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662536Z",
+        "last_seen": "2026-08-09T03:46:21.662536Z",
+        "last_verified": null
+      },
+      {
+        "id": "09d56cf2-d7ec-4c43-bdb6-ddc5c623c6da",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"_quuerjb9mywulmdygnzgnt9awyzm15c\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"_quuerjb9mywulmdygnzgnt9awyzm15c\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662541Z",
+        "last_seen": "2026-08-09T03:46:21.662541Z",
+        "last_verified": null
+      },
+      {
+        "id": "3d1376cd-9f28-4448-8ef0-823decbf4711",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"traction-guest=b4f7ad59-bf17-4b3c-8b36-9c2d28f1de32\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"traction-guest=b4f7ad59-bf17-4b3c-8b36-9c2d28f1de32\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662545Z",
+        "last_seen": "2026-08-09T03:46:21.662545Z",
+        "last_verified": null
+      },
+      {
+        "id": "f0934c36-dd7c-4662-a654-bb173cd52f6f",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"ms-domain-verification=e335cec9-0ff5-4a54-b8bc-8966a8d146db\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"ms-domain-verification=e335cec9-0ff5-4a54-b8bc-8966a8d146db\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662549Z",
+        "last_seen": "2026-08-09T03:46:21.662549Z",
+        "last_verified": null
+      },
+      {
+        "id": "ecf5288d-d7c5-4758-86fb-69263d387898",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"atlassian-domain-verification=FuJL8qfcWp7BKpnaomRV1Vmay09Vt0rdhikq9Gh/CwPYjsvTIwkrhaVAX1idqUMl\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"atlassian-domain-verification=FuJL8qfcWp7BKpnaomRV1Vmay09Vt0rdhikq9Gh/CwPYjsvTIwkrhaVAX1idqUMl\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662553Z",
+        "last_seen": "2026-08-09T03:46:21.662553Z",
+        "last_verified": null
+      },
+      {
+        "id": "594e0a86-b78f-4985-92f4-08665172de9d",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"55zNJIDU0xk94IfGJtL+Hh+wje5JzOS6GY+ntggZF908AUsx0LBKgr+Nln3CgZEUifxSuN09M05jYpdbd6+cpw==\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"55zNJIDU0xk94IfGJtL+Hh+wje5JzOS6GY+ntggZF908AUsx0LBKgr+Nln3CgZEUifxSuN09M05jYpdbd6+cpw==\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662557Z",
+        "last_seen": "2026-08-09T03:46:21.662557Z",
+        "last_verified": null
+      },
+      {
+        "id": "1d0342c0-6440-4e24-b33b-13985ed530d2",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"_f32sd18rpksw3zh1hgbhaulpv016hoh\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"_f32sd18rpksw3zh1hgbhaulpv016hoh\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662562Z",
+        "last_seen": "2026-08-09T03:46:21.662562Z",
+        "last_verified": null
+      },
+      {
+        "id": "712eac60-848e-4ac3-a5a6-4838d44fd71b",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"logmein-verification-code=JFAnsPovogeJ4IeW5MXCU3r0C\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"logmein-verification-code=JFAnsPovogeJ4IeW5MXCU3r0C\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662566Z",
+        "last_seen": "2026-08-09T03:46:21.662567Z",
+        "last_verified": null
+      },
+      {
+        "id": "80d30ad9-5915-4372-9a4b-2d9b9da1dd05",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"bugcrowd-verification=40bd5dd89a6e4073ca9bc76feac3a47b\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"bugcrowd-verification=40bd5dd89a6e4073ca9bc76feac3a47b\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662571Z",
+        "last_seen": "2026-08-09T03:46:21.662571Z",
+        "last_verified": null
+      },
+      {
+        "id": "f9df52bc-9bb1-451f-9231-2d335fd1bb6b",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"dell-technologies-domain-verification=tesla.com_c363f56d-9650-430a-82d3-04ac2257c64a_1756487968\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"dell-technologies-domain-verification=tesla.com_c363f56d-9650-430a-82d3-04ac2257c64a_1756487968\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662574Z",
+        "last_seen": "2026-08-09T03:46:21.662575Z",
+        "last_verified": null
+      },
+      {
+        "id": "22bb1ea5-ad45-4332-8ab8-db664f83da83",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"jamf-site-verification=u4x3LuqSfpoLn5nJ0zMd5g\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"jamf-site-verification=u4x3LuqSfpoLn5nJ0zMd5g\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662580Z",
+        "last_seen": "2026-08-09T03:46:21.662580Z",
+        "last_verified": null
+      },
+      {
+        "id": "20f121f0-59b9-44fe-8b21-5918afad735f",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"domain-verification=0f075f7f33bd0e577c0a56c5bb071f9eedadba45f32da11304913c6afd4b99c7\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"domain-verification=0f075f7f33bd0e577c0a56c5bb071f9eedadba45f32da11304913c6afd4b99c7\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662583Z",
+        "last_seen": "2026-08-09T03:46:21.662584Z",
+        "last_verified": null
+      },
+      {
+        "id": "5c588e80-18bc-4f62-89e2-4b1bfaa6c5b1",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"google-site-verification=f1YoSQ3nrxPHwlfkwT9Mj_7M_rzQ2RqCPBYHJ9CQNlY  \"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"google-site-verification=f1YoSQ3nrxPHwlfkwT9Mj_7M_rzQ2RqCPBYHJ9CQNlY  \""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662588Z",
+        "last_seen": "2026-08-09T03:46:21.662588Z",
+        "last_verified": null
+      },
+      {
+        "id": "22d60458-a30e-421e-bb24-fbcf3e607a98",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"traction-guest=c8bad9fc-4b36-4f6d-944e-783ed41b34b7\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"traction-guest=c8bad9fc-4b36-4f6d-944e-783ed41b34b7\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662591Z",
+        "last_seen": "2026-08-09T03:46:21.662592Z",
+        "last_verified": null
+      },
+      {
+        "id": "1c427159-7c3b-44c1-bd90-42289b4f8184",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"ms-domain-verification=820e4be7-563e-4f52-b73a-5c9ecdd2fda4\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"ms-domain-verification=820e4be7-563e-4f52-b73a-5c9ecdd2fda4\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662595Z",
+        "last_seen": "2026-08-09T03:46:21.662595Z",
+        "last_verified": null
+      },
+      {
+        "id": "ad6dea68-128a-46b3-b1fb-90f2e185583d",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"onetrust-domain-verification=480735b10e124e23916192d7e4321902\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"onetrust-domain-verification=480735b10e124e23916192d7e4321902\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662600Z",
+        "last_seen": "2026-08-09T03:46:21.662600Z",
+        "last_verified": null
+      },
+      {
+        "id": "2f9be27e-41ac-4eda-ae5d-4995da37cc05",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"cloudflare_dashboard_sso=5c0b681b716d2de0666f5a564a4d9c0d\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"cloudflare_dashboard_sso=5c0b681b716d2de0666f5a564a4d9c0d\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662604Z",
+        "last_seen": "2026-08-09T03:46:21.662605Z",
+        "last_verified": null
+      },
+      {
+        "id": "85941e62-53dd-4e19-a3d1-e8d052d24505",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"atlassian-domain-verification=U31RjXDO5NBJROoOVpVEsKJ7daGpXuXPDF8HeqlmvXUKOtTao652TOMtejHrohKB\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"atlassian-domain-verification=U31RjXDO5NBJROoOVpVEsKJ7daGpXuXPDF8HeqlmvXUKOtTao652TOMtejHrohKB\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662608Z",
+        "last_seen": "2026-08-09T03:46:21.662609Z",
+        "last_verified": null
+      },
+      {
+        "id": "20c8d6bb-6d97-40b0-a3bf-d02d58a1a0ba",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"apple-domain-verification=C9J7eOtEbm7Dqr88\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"apple-domain-verification=C9J7eOtEbm7Dqr88\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662612Z",
+        "last_seen": "2026-08-09T03:46:21.662612Z",
+        "last_verified": null
+      },
+      {
+        "id": "65b78f10-33c9-4cbf-8a39-07be1118129f",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"apple-domain-verification=CHZ8RLPKu4dlRxlaNa_nR9oA2MjZ1n2fiE9s0QlbRO8\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"apple-domain-verification=CHZ8RLPKu4dlRxlaNa_nR9oA2MjZ1n2fiE9s0QlbRO8\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662615Z",
+        "last_seen": "2026-08-09T03:46:21.662615Z",
+        "last_verified": null
+      },
+      {
+        "id": "8ef523ff-ab95-4d55-985c-6051c0697948",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"T0E0S29854\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"T0E0S29854\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662620Z",
+        "last_seen": "2026-08-09T03:46:21.662621Z",
+        "last_verified": null
+      },
+      {
+        "id": "927b8092-9797-40c1-bba8-84cfc9caee6d",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"adobe-sign-verification=efb2da198047b7a154bd604d2721038b\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"adobe-sign-verification=efb2da198047b7a154bd604d2721038b\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662624Z",
+        "last_seen": "2026-08-09T03:46:21.662625Z",
+        "last_verified": null
+      },
+      {
+        "id": "3027c170-6dcd-4dea-9e19-e5290a32c66d",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"logmein-domain-confirmation=9zxwVn2buGWrLtU24J88\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"logmein-domain-confirmation=9zxwVn2buGWrLtU24J88\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662628Z",
+        "last_seen": "2026-08-09T03:46:21.662628Z",
+        "last_verified": null
+      },
+      {
+        "id": "44cbc62d-94d8-45a2-bc09-49edf750adc2",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"google-site-verification=Y7lbse5bSatjXaqSBOWXjsit4mOp9cQzfLDpnQUSZlg\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"google-site-verification=Y7lbse5bSatjXaqSBOWXjsit4mOp9cQzfLDpnQUSZlg\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662632Z",
+        "last_seen": "2026-08-09T03:46:21.662632Z",
+        "last_verified": null
+      },
+      {
+        "id": "4472cd31-9782-4ba4-b782-d9f01ae7a21b",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"MS=ms22358213\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"MS=ms22358213\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662637Z",
+        "last_seen": "2026-08-09T03:46:21.662637Z",
+        "last_verified": null
+      },
+      {
+        "id": "f07a552a-51a0-4136-bbe4-283fb1921300",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"_w19nckjurfa4aldim48vtbrxsq1phnv\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"_w19nckjurfa4aldim48vtbrxsq1phnv\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662640Z",
+        "last_seen": "2026-08-09T03:46:21.662641Z",
+        "last_verified": null
+      },
+      {
+        "id": "ade07c60-9af2-4f86-b782-c0e83bbe4641",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"v=spf1 ip4:54.240.84.225/32 ip4:54.240.84.226/31 ip4:54.240.84.228/30 ip4:54.240.84.232/29 ip4:54.240.84.240/29 ip4:54.240.84.248/30 ip4:54.240.84.252/32 ip4:44.239.249.139 ip4:52.24.70.112 ip4:34.223.204.78 ip4:213.244.145.203 ip4:213.244.145.219 ip4:213\" \".244.145.204 ip4:213.244.145.220 ip4:8.47.24.203 ip4:8.47.24.219 ip4:8.47.24.204 ip4:8.47.24.220 ip4:8.45.124.203 ip4:8.45.124.219 ip4:8.45.124.204 ip4:8.45.124.220 ip4:8.21.14.203 ip4:8.21.14.219 ip4:8.21.14.204 ip4:8.21.14.220 ip4:8.21.14.194 ip4:8.21.1\" \"4.211 ip4:212.49.145.0/24 ip4:91.103.52.0/22 ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:167.89.90.62 ip4:158.228.129.79 ip4:216.81.144.165 ip4:117.50.14.178 ip4:117\" \".50.35.199 ip4:54.240.42.110 ip4:54.240.42.111 ip4:199.71.239.178 ip4:67.216.183.10 ip4:8.43.178.222 ip4:64.95.144.196 ip4:199.71.239.52 include:u13494342.wl093.sendgrid.net include:spf.protection.outlook.com include:mail.zendesk.com include:_spfsn.teslam\" \"otors.com include:_spf.qualtrics.com include:_spf.ultipro.com include:_spf.psm.knowbe4.com include:spf1.sendcloud.org include:spf2.sendcloud.org -all\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"v=spf1 ip4:54.240.84.225/32 ip4:54.240.84.226/31 ip4:54.240.84.228/30 ip4:54.240.84.232/29 ip4:54.240.84.240/29 ip4:54.240.84.248/30 ip4:54.240.84.252/32 ip4:44.239.249.139 ip4:52.24.70.112 ip4:34.223.204.78 ip4:213.244.145.203 ip4:213.244.145.219 ip4:213\" \".244.145.204 ip4:213.244.145.220 ip4:8.47.24.203 ip4:8.47.24.219 ip4:8.47.24.204 ip4:8.47.24.220 ip4:8.45.124.203 ip4:8.45.124.219 ip4:8.45.124.204 ip4:8.45.124.220 ip4:8.21.14.203 ip4:8.21.14.219 ip4:8.21.14.204 ip4:8.21.14.220 ip4:8.21.14.194 ip4:8.21.1\" \"4.211 ip4:212.49.145.0/24 ip4:91.103.52.0/22 ip4:168.245.123.10 ip4:216.81.144.165 ip4:149.72.247.52 ip4:149.72.134.64 ip4:149.72.152.236 ip4:149.72.163.58 ip4:149.72.172.170 ip4:167.89.90.62 ip4:158.228.129.79 ip4:216.81.144.165 ip4:117.50.14.178 ip4:117\" \".50.35.199 ip4:54.240.42.110 ip4:54.240.42.111 ip4:199.71.239.178 ip4:67.216.183.10 ip4:8.43.178.222 ip4:64.95.144.196 ip4:199.71.239.52 include:u13494342.wl093.sendgrid.net include:spf.protection.outlook.com include:mail.zendesk.com include:_spfsn.teslam\" \"otors.com include:_spf.qualtrics.com include:_spf.ultipro.com include:_spf.psm.knowbe4.com include:spf1.sendcloud.org include:spf2.sendcloud.org -all\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662645Z",
+        "last_seen": "2026-08-09T03:46:21.662646Z",
+        "last_verified": null
+      },
+      {
+        "id": "3336c386-6f51-4586-a363-f242504e6a4c",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"zapier-domain-verification-challenge=64e810e8-0fe1-4de0-b104-229592811c5b\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"zapier-domain-verification-challenge=64e810e8-0fe1-4de0-b104-229592811c5b\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662649Z",
+        "last_seen": "2026-08-09T03:46:21.662649Z",
+        "last_verified": null
+      },
+      {
+        "id": "6f7932a4-8638-46c3-b3fa-abc4e0c875a0",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"teamviewer-sso-verification=2fc989f75b19494fab5eb0e2c22dd625\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"teamviewer-sso-verification=2fc989f75b19494fab5eb0e2c22dd625\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662653Z",
+        "last_seen": "2026-08-09T03:46:21.662653Z",
+        "last_verified": null
+      },
+      {
+        "id": "391119ad-b9bb-4af8-a460-e5d5bf0d19bf",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"SFMC-qkAv7SvlQaslp7NEALX8t68s_AZWOQB6ThKQS5l5\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"SFMC-qkAv7SvlQaslp7NEALX8t68s_AZWOQB6ThKQS5l5\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662656Z",
+        "last_seen": "2026-08-09T03:46:21.662656Z",
+        "last_verified": null
+      },
+      {
+        "id": "4be16a74-3a82-4c85-bdd3-dba64cdffedb",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"_i88zzpi9e3jr0xglot953efk0ui36y5\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"_i88zzpi9e3jr0xglot953efk0ui36y5\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662661Z",
+        "last_seen": "2026-08-09T03:46:21.662661Z",
+        "last_verified": null
+      },
+      {
+        "id": "248388fa-5db3-49fa-a7a9-84af80ef162c",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"google-site-verification=Xg2DEUg2oCz1q9RMx8gh2htHK16_GG9cZXY_eyeSf6w\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"google-site-verification=Xg2DEUg2oCz1q9RMx8gh2htHK16_GG9cZXY_eyeSf6w\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662665Z",
+        "last_seen": "2026-08-09T03:46:21.662665Z",
+        "last_verified": null
+      },
+      {
+        "id": "39b6ce05-94cb-47e4-8110-b39c03fb4865",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"onetrust-domain-verification=79a1328740f44bc48dd97ab52c0c3377\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"onetrust-domain-verification=79a1328740f44bc48dd97ab52c0c3377\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662668Z",
+        "last_seen": "2026-08-09T03:46:21.662668Z",
+        "last_verified": null
+      },
+      {
+        "id": "3da9c641-b310-4faa-8469-b0f32d9b1d8f",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"cursor-domain-verification-6kgt2s=sxbxrRmk2tNjItWtmh1swmBM0\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"cursor-domain-verification-6kgt2s=sxbxrRmk2tNjItWtmh1swmBM0\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662672Z",
+        "last_seen": "2026-08-09T03:46:21.662672Z",
+        "last_verified": null
+      },
+      {
+        "id": "f5183a55-13fb-4427-95fe-1f364e7377f5",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"adobe-idp-site-verification=321c026a-3a8c-4206-a1fa-391a59585c54\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"adobe-idp-site-verification=321c026a-3a8c-4206-a1fa-391a59585c54\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662675Z",
+        "last_seen": "2026-08-09T03:46:21.662676Z",
+        "last_verified": null
+      },
+      {
+        "id": "690c58ce-f829-4cd5-a274-dcda42e7a298",
+        "asset_type": "dns_record",
+        "asset_value": "TXT:\"docker-verification=74d1ec4e-a7a6-48a7-9568-9bd0faac833f\"",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "TXT",
+          "ttl": 1,
+          "value": "\"docker-verification=74d1ec4e-a7a6-48a7-9568-9bd0faac833f\""
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662679Z",
+        "last_seen": "2026-08-09T03:46:21.662680Z",
+        "last_verified": null
+      },
+      {
+        "id": "c5edceec-3fc8-4b5c-a0e6-41e2f9c78fdf",
+        "asset_type": "dns_record",
+        "asset_value": "NS:a7-66.akam.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "a7-66.akam.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662684Z",
+        "last_seen": "2026-08-09T03:46:21.662685Z",
+        "last_verified": null
+      },
+      {
+        "id": "60079a38-1f31-41e8-9a3b-2115bf6bd1aa",
+        "asset_type": "dns_record",
+        "asset_value": "NS:a28-65.akam.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "a28-65.akam.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662689Z",
+        "last_seen": "2026-08-09T03:46:21.662689Z",
+        "last_verified": null
+      },
+      {
+        "id": "4e4dd25e-aa63-4430-88b0-b601c51a377d",
+        "asset_type": "dns_record",
+        "asset_value": "NS:a1-12.akam.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "a1-12.akam.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662693Z",
+        "last_seen": "2026-08-09T03:46:21.662693Z",
+        "last_verified": null
+      },
+      {
+        "id": "81ab5909-81eb-486b-b989-f0f8ee3c706a",
+        "asset_type": "dns_record",
+        "asset_value": "NS:a10-67.akam.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "a10-67.akam.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662697Z",
+        "last_seen": "2026-08-09T03:46:21.662697Z",
+        "last_verified": null
+      },
+      {
+        "id": "a19560a1-e113-47fa-8951-806f646b17a7",
+        "asset_type": "dns_record",
+        "asset_value": "NS:edns69.ultradns.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "edns69.ultradns.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662702Z",
+        "last_seen": "2026-08-09T03:46:21.662702Z",
+        "last_verified": null
+      },
+      {
+        "id": "840fac60-d7c2-4a06-a277-cbdc563c6b37",
+        "asset_type": "dns_record",
+        "asset_value": "NS:edns69.ultradns.com.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "edns69.ultradns.com."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662706Z",
+        "last_seen": "2026-08-09T03:46:21.662706Z",
+        "last_verified": null
+      },
+      {
+        "id": "d31c852c-767a-43b0-adea-f8bf745c7c71",
+        "asset_type": "dns_record",
+        "asset_value": "NS:edns69.ultradns.biz.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "edns69.ultradns.biz."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662709Z",
+        "last_seen": "2026-08-09T03:46:21.662710Z",
+        "last_verified": null
+      },
+      {
+        "id": "6a6dafcf-c904-4b4d-963a-983d8ffdd5fd",
+        "asset_type": "dns_record",
+        "asset_value": "NS:edns69.ultradns.org.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "edns69.ultradns.org."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662713Z",
+        "last_seen": "2026-08-09T03:46:21.662713Z",
+        "last_verified": null
+      },
+      {
+        "id": "66406d77-e7c1-469d-b7bc-6e0b3e19190c",
+        "asset_type": "dns_record",
+        "asset_value": "NS:a9-67.akam.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "a9-67.akam.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662718Z",
+        "last_seen": "2026-08-09T03:46:21.662718Z",
+        "last_verified": null
+      },
+      {
+        "id": "7e59b805-897c-468c-9f87-1dedf0b7426e",
+        "asset_type": "dns_record",
+        "asset_value": "NS:a12-64.akam.net.",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "NS",
+          "ttl": 85888,
+          "value": "a12-64.akam.net."
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662723Z",
+        "last_seen": "2026-08-09T03:46:21.662723Z",
+        "last_verified": null
+      },
+      {
+        "id": "b4c6f589-33b1-4268-bc10-4eb241223fba",
+        "asset_type": "dns_record",
+        "asset_value": "SOA:edns69.ultradns.com. domain.teslamotors.com. 2016025310 1800 86400 86400 86400",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "SOA",
+          "ttl": 84711,
+          "value": "edns69.ultradns.com. domain.teslamotors.com. 2016025310 1800 86400 86400 86400",
+          "mname": "edns69.ultradns.com",
+          "rname": "domain.teslamotors.com",
+          "serial": 2016025310,
+          "refresh": 1800,
+          "retry": 86400,
+          "expire": 86400,
+          "minimum": 86400
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662727Z",
+        "last_seen": "2026-08-09T03:46:21.662727Z",
+        "last_verified": null
+      },
+      {
+        "id": "015c7687-a956-4a4a-8b8b-a718af894bc2",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a23-40-100-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "23.40.100.207",
+          "value": "a23-40-100-207.deploy.static.akamaitechnologies.com",
+          "ttl": 37929
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662732Z",
+        "last_seen": "2026-08-09T03:46:21.662732Z",
+        "last_verified": null
+      },
+      {
+        "id": "9832d345-4ddb-4ddd-b980-e4b5265f1381",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-49-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.49.207",
+          "value": "a2-18-49-207.deploy.static.akamaitechnologies.com",
+          "ttl": 37930
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662736Z",
+        "last_seen": "2026-08-09T03:46:21.662736Z",
+        "last_verified": null
+      },
+      {
+        "id": "53cecb91-92b5-4f77-b9c3-ca7264fdda6b",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-48-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.48.207",
+          "value": "a2-18-48-207.deploy.static.akamaitechnologies.com",
+          "ttl": 43200
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662740Z",
+        "last_seen": "2026-08-09T03:46:21.662740Z",
+        "last_verified": null
+      },
+      {
+        "id": "5beab21c-71bf-420b-8c85-35f1fd3120be",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a23-7-244-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "23.7.244.207",
+          "value": "a23-7-244-207.deploy.static.akamaitechnologies.com",
+          "ttl": 37929
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662745Z",
+        "last_seen": "2026-08-09T03:46:21.662745Z",
+        "last_verified": null
+      },
+      {
+        "id": "bc19dfe6-2ecd-47dd-8f19-fee8cc774c37",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-51-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.51.207",
+          "value": "a2-18-51-207.deploy.static.akamaitechnologies.com",
+          "ttl": 37925
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662749Z",
+        "last_seen": "2026-08-09T03:46:21.662749Z",
+        "last_verified": null
+      },
+      {
+        "id": "2ee027bb-a963-44a3-ac75-6195729caf15",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-50-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.50.207",
+          "value": "a2-18-50-207.deploy.static.akamaitechnologies.com",
+          "ttl": 37926
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662752Z",
+        "last_seen": "2026-08-09T03:46:21.662753Z",
+        "last_verified": null
+      },
+      {
+        "id": "af76038d-ceaf-4108-926a-67ed784570bf",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-55-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.55.207",
+          "value": "a2-18-55-207.deploy.static.akamaitechnologies.com",
+          "ttl": 37923
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662755Z",
+        "last_seen": "2026-08-09T03:46:21.662756Z",
+        "last_verified": null
+      },
+      {
+        "id": "2d8ada0c-e3a1-40e8-97aa-efb3f03cf94c",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-54-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.54.207",
+          "value": "a2-18-54-207.deploy.static.akamaitechnologies.com",
+          "ttl": 38277
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662759Z",
+        "last_seen": "2026-08-09T03:46:21.662759Z",
+        "last_verified": null
+      },
+      {
+        "id": "e88111d4-1d13-42b7-8ec9-705f8ec30abe",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-53-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.53.207",
+          "value": "a2-18-53-207.deploy.static.akamaitechnologies.com",
+          "ttl": 41511
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662762Z",
+        "last_seen": "2026-08-09T03:46:21.662762Z",
+        "last_verified": null
+      },
+      {
+        "id": "58077114-bd26-4613-8445-3557b14ce2bf",
+        "asset_type": "dns_record",
+        "asset_value": "PTR:a2-18-52-207.deploy.static.akamaitechnologies.com",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "type": "PTR",
+          "ip": "2.18.52.207",
+          "value": "a2-18-52-207.deploy.static.akamaitechnologies.com",
+          "ttl": 43200
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662765Z",
+        "last_seen": "2026-08-09T03:46:21.662765Z",
+        "last_verified": null
+      }
+    ],
+    "ip_address": [
+      {
+        "id": "d6694f6b-05da-4a3d-b1de-336a599a260d",
+        "asset_type": "ip_address",
+        "asset_value": "23.40.100.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662303Z",
+        "last_seen": "2026-08-09T03:46:21.662303Z",
+        "last_verified": null
+      },
+      {
+        "id": "87922f37-d69e-473c-b7be-8bf0a3d91006",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.49.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662315Z",
+        "last_seen": "2026-08-09T03:46:21.662315Z",
+        "last_verified": null
+      },
+      {
+        "id": "56607b52-17d6-4120-9c79-6905f2d91b70",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.48.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662324Z",
+        "last_seen": "2026-08-09T03:46:21.662324Z",
+        "last_verified": null
+      },
+      {
+        "id": "4964a50b-2761-40ca-852e-08c2fa04fece",
+        "asset_type": "ip_address",
+        "asset_value": "23.7.244.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662333Z",
+        "last_seen": "2026-08-09T03:46:21.662333Z",
+        "last_verified": null
+      },
+      {
+        "id": "ba4e604d-5342-412a-82e7-e0a6a8b04996",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.51.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662342Z",
+        "last_seen": "2026-08-09T03:46:21.662342Z",
+        "last_verified": null
+      },
+      {
+        "id": "a991cb30-ba12-409a-a2fa-a183e24af1f3",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.50.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662355Z",
+        "last_seen": "2026-08-09T03:46:21.662356Z",
+        "last_verified": null
+      },
+      {
+        "id": "8b07de1e-41cf-4675-85b0-a1ee460fed38",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.55.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662363Z",
+        "last_seen": "2026-08-09T03:46:21.662363Z",
+        "last_verified": null
+      },
+      {
+        "id": "3eb9b824-ee86-4112-95e4-1c73bc4323fc",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.54.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662371Z",
+        "last_seen": "2026-08-09T03:46:21.662371Z",
+        "last_verified": null
+      },
+      {
+        "id": "870e62c2-8370-43e8-874a-0277911d4be3",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.53.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662379Z",
+        "last_seen": "2026-08-09T03:46:21.662379Z",
+        "last_verified": null
+      },
+      {
+        "id": "4acf4859-7d3f-4b50-8194-9b499d11110d",
+        "asset_type": "ip_address",
+        "asset_value": "2.18.52.207",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662386Z",
+        "last_seen": "2026-08-09T03:46:21.662387Z",
+        "last_verified": null
+      },
+      {
+        "id": "b6346b35-5030-4774-bbf3-9c5fe1612ea5",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:34cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662397Z",
+        "last_seen": "2026-08-09T03:46:21.662397Z",
+        "last_verified": null
+      },
+      {
+        "id": "931faa4a-a753-4c31-ba11-62edfe055e69",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::1728:64cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662408Z",
+        "last_seen": "2026-08-09T03:46:21.662409Z",
+        "last_verified": null
+      },
+      {
+        "id": "3c2664ad-473d-4474-a3e7-eacfe2e8a5bf",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:31cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662417Z",
+        "last_seen": "2026-08-09T03:46:21.662417Z",
+        "last_verified": null
+      },
+      {
+        "id": "5d472b9f-69fc-4f9b-99db-09ca756be6b1",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:30cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662425Z",
+        "last_seen": "2026-08-09T03:46:21.662425Z",
+        "last_verified": null
+      },
+      {
+        "id": "20f22f46-addc-48e8-9d20-388e8115af40",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::1707:f4cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662432Z",
+        "last_seen": "2026-08-09T03:46:21.662432Z",
+        "last_verified": null
+      },
+      {
+        "id": "0e58951d-40a4-41f2-b039-5031e270f27f",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:33cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662443Z",
+        "last_seen": "2026-08-09T03:46:21.662443Z",
+        "last_verified": null
+      },
+      {
+        "id": "930f6e37-b43c-48ca-a065-414fa2ed0eac",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:32cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662450Z",
+        "last_seen": "2026-08-09T03:46:21.662450Z",
+        "last_verified": null
+      },
+      {
+        "id": "b7916b5a-afc1-4031-9516-2689177652f1",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:37cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662506Z",
+        "last_seen": "2026-08-09T03:46:21.662506Z",
+        "last_verified": null
+      },
+      {
+        "id": "1f752538-f0f3-4262-a60f-c19078b817a4",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:36cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662516Z",
+        "last_seen": "2026-08-09T03:46:21.662516Z",
+        "last_verified": null
+      },
+      {
+        "id": "7bd9785b-cea6-4cad-b864-c0bc61da9b86",
+        "asset_type": "ip_address",
+        "asset_value": "64:ff9b::212:35cf",
+        "discovery_source": "dns",
+        "sources": [
+          "dns"
+        ],
+        "methods": [
+          "dns"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662529Z",
+        "last_seen": "2026-08-09T03:46:21.662529Z",
+        "last_verified": null
+      }
+    ],
+    "subdomain": [
+      {
+        "id": "b6d0fa6b-bfb7-4a00-af91-6d1524c13480",
+        "asset_type": "subdomain",
+        "asset_value": "accounts.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662771Z",
+        "last_seen": "2026-08-09T03:46:21.662771Z",
+        "last_verified": null
+      },
+      {
+        "id": "3b395e20-0fb4-45bb-9912-52e3f95fb58c",
+        "asset_type": "subdomain",
+        "asset_value": "auth.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662775Z",
+        "last_seen": "2026-08-09T03:46:21.662775Z",
+        "last_verified": null
+      },
+      {
+        "id": "4bf10271-1589-4504-9b47-692429cdf8e1",
+        "asset_type": "subdomain",
+        "asset_value": "billing.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662778Z",
+        "last_seen": "2026-08-09T03:46:21.662778Z",
+        "last_verified": null
+      },
+      {
+        "id": "4f4fb3ee-7613-4be0-9d57-c06b6a66dd53",
+        "asset_type": "subdomain",
+        "asset_value": "mobile.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662782Z",
+        "last_seen": "2026-08-09T03:46:21.662782Z",
+        "last_verified": null
+      },
+      {
+        "id": "ee8bc01f-a4f2-4795-b09e-168f3b9ab732",
+        "asset_type": "subdomain",
+        "asset_value": "pay.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662785Z",
+        "last_seen": "2026-08-09T03:46:21.662786Z",
+        "last_verified": null
+      },
+      {
+        "id": "989271ac-a76b-4246-a8f8-e9cf8f532d46",
+        "asset_type": "subdomain",
+        "asset_value": "shop.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662788Z",
+        "last_seen": "2026-08-09T03:46:21.662788Z",
+        "last_verified": null
+      },
+      {
+        "id": "0d5e44cf-9c09-402e-8e73-389044862df5",
+        "asset_type": "subdomain",
+        "asset_value": "sso.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662792Z",
+        "last_seen": "2026-08-09T03:46:21.662792Z",
+        "last_verified": null
+      },
+      {
+        "id": "62e773b8-1bb0-4f32-b71b-67463e0042ab",
+        "asset_type": "subdomain",
+        "asset_value": "static.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662794Z",
+        "last_seen": "2026-08-09T03:46:21.662795Z",
+        "last_verified": null
+      },
+      {
+        "id": "2f598990-8a31-4308-868f-c882d04e5e9e",
+        "asset_type": "subdomain",
+        "asset_value": "www.tesla.com",
+        "discovery_source": "subdomain",
+        "sources": [
+          "subdomain"
+        ],
+        "methods": [
+          "subdomain"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.7,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662797Z",
+        "last_seen": "2026-08-09T03:46:21.662798Z",
+        "last_verified": null
+      }
+    ],
+    "nameserver": [
+      {
+        "id": "93d7a46e-be33-439e-ad74-4d13bd6a9231",
+        "asset_type": "nameserver",
+        "asset_value": "edns69.ultradns.org",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "edns69.ultradns.org",
+          "ips": [
+            "204.74.111.69"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662804Z",
+        "last_seen": "2026-08-09T03:46:21.662804Z",
+        "last_verified": null
+      },
+      {
+        "id": "12a1fe5c-3b75-4f2c-870b-4b39030d8ff8",
+        "asset_type": "nameserver",
+        "asset_value": "a9-67.akam.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "a9-67.akam.net",
+          "ips": [
+            "184.85.248.67"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662807Z",
+        "last_seen": "2026-08-09T03:46:21.662807Z",
+        "last_verified": null
+      },
+      {
+        "id": "72ffd00d-1390-4fa4-a0e1-9fc07b8637e2",
+        "asset_type": "nameserver",
+        "asset_value": "a12-64.akam.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "a12-64.akam.net",
+          "ips": [
+            "184.26.160.64"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662811Z",
+        "last_seen": "2026-08-09T03:46:21.662811Z",
+        "last_verified": null
+      },
+      {
+        "id": "e28451ab-8e72-4fbd-a79d-0e9710e6be50",
+        "asset_type": "nameserver",
+        "asset_value": "a7-66.akam.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "a7-66.akam.net",
+          "ips": [
+            "23.61.199.66"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662814Z",
+        "last_seen": "2026-08-09T03:46:21.662814Z",
+        "last_verified": null
+      },
+      {
+        "id": "100c55e6-4614-4dfe-addb-0c89ada77ee3",
+        "asset_type": "nameserver",
+        "asset_value": "a28-65.akam.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "a28-65.akam.net",
+          "ips": [
+            "95.100.173.65"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662818Z",
+        "last_seen": "2026-08-09T03:46:21.662819Z",
+        "last_verified": null
+      },
+      {
+        "id": "1e154072-903d-4709-b942-ba2a0bdfa2bb",
+        "asset_type": "nameserver",
+        "asset_value": "a1-12.akam.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "a1-12.akam.net",
+          "ips": [
+            "193.108.91.12"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662821Z",
+        "last_seen": "2026-08-09T03:46:21.662822Z",
+        "last_verified": null
+      },
+      {
+        "id": "78bda1fc-7409-4378-a6f0-9f15fa23d9ed",
+        "asset_type": "nameserver",
+        "asset_value": "a10-67.akam.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "a10-67.akam.net",
+          "ips": [
+            "96.7.50.67"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662824Z",
+        "last_seen": "2026-08-09T03:46:21.662825Z",
+        "last_verified": null
+      },
+      {
+        "id": "49885e2f-b6f3-4eb6-aa8a-28670f035f45",
+        "asset_type": "nameserver",
+        "asset_value": "edns69.ultradns.net",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "edns69.ultradns.net",
+          "ips": [
+            "204.74.110.69"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662827Z",
+        "last_seen": "2026-08-09T03:46:21.662827Z",
+        "last_verified": null
+      },
+      {
+        "id": "3a672030-27ff-40be-b435-bcf64402c6fb",
+        "asset_type": "nameserver",
+        "asset_value": "edns69.ultradns.com",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "edns69.ultradns.com",
+          "ips": [
+            "204.74.66.69"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662830Z",
+        "last_seen": "2026-08-09T03:46:21.662830Z",
+        "last_verified": null
+      },
+      {
+        "id": "3b4b7702-9212-4e95-823e-0b993f738a7c",
+        "asset_type": "nameserver",
+        "asset_value": "edns69.ultradns.biz",
+        "discovery_source": "nameserver",
+        "sources": [
+          "nameserver"
+        ],
+        "methods": [
+          "nameserver"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "nameserver": "edns69.ultradns.biz",
+          "ips": [
+            "204.74.67.69"
+          ],
+          "zone_transfer": false
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662833Z",
+        "last_seen": "2026-08-09T03:46:21.662833Z",
+        "last_verified": null
+      }
+    ],
+    "mail_server": [
+      {
+        "id": "9cb6ce1c-cdf7-46ff-a0da-ce350d7b02f8",
+        "asset_type": "mail_server",
+        "asset_value": "tesla-com.mail.protection.outlook.com",
+        "discovery_source": "mail",
+        "sources": [
+          "mail"
+        ],
+        "methods": [
+          "mail"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "priority": 10,
+          "exchange": "tesla-com.mail.protection.outlook.com",
+          "ttl": 1
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662837Z",
+        "last_seen": "2026-08-09T03:46:21.662838Z",
+        "last_verified": null
+      }
+    ],
+    "open_port": [
+      {
+        "id": "1341c674-d6c9-4c99-bcbe-b0cc8f120649",
+        "asset_type": "open_port",
+        "asset_value": "tesla.com:80",
+        "discovery_source": "ports",
+        "sources": [
+          "ports"
+        ],
+        "methods": [
+          "ports"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "port": 80,
+          "state": "open",
+          "service": "http",
+          "protocol": "tcp"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662844Z",
+        "last_seen": "2026-08-09T03:46:21.662845Z",
+        "last_verified": null
+      },
+      {
+        "id": "eeb1bf0f-5d58-4eef-8929-da3d20375ded",
+        "asset_type": "open_port",
+        "asset_value": "tesla.com:443",
+        "discovery_source": "ports",
+        "sources": [
+          "ports"
+        ],
+        "methods": [
+          "ports"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "port": 443,
+          "state": "open",
+          "service": "https",
+          "protocol": "tcp"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662854Z",
+        "last_seen": "2026-08-09T03:46:21.662854Z",
+        "last_verified": null
+      }
+    ],
+    "service": [
+      {
+        "id": "773d0f2a-a394-4df1-aec0-5af491296306",
+        "asset_type": "service",
+        "asset_value": "http:80",
+        "discovery_source": "ports",
+        "sources": [
+          "ports"
+        ],
+        "methods": [
+          "ports"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "port": 80,
+          "state": "open",
+          "service": "http",
+          "protocol": "tcp"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662849Z",
+        "last_seen": "2026-08-09T03:46:21.662850Z",
+        "last_verified": null
+      },
+      {
+        "id": "96bb13d2-376c-49d1-8315-bddbe7b3a704",
+        "asset_type": "service",
+        "asset_value": "https:443",
+        "discovery_source": "ports",
+        "sources": [
+          "ports"
+        ],
+        "methods": [
+          "ports"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "port": 443,
+          "state": "open",
+          "service": "https",
+          "protocol": "tcp"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662860Z",
+        "last_seen": "2026-08-09T03:46:21.662860Z",
+        "last_verified": null
+      }
+    ],
+    "waf": [
+      {
+        "id": "c765adb6-3c75-42c5-b3fc-7857786b244a",
+        "asset_type": "waf",
+        "asset_value": "Akamai",
+        "discovery_source": "waf",
+        "sources": [
+          "waf"
+        ],
+        "methods": [
+          "waf"
+        ],
+        "evidence": [],
+        "raw_data": {},
+        "confidence_score": 0.8,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662866Z",
+        "last_seen": "2026-08-09T03:46:21.662867Z",
+        "last_verified": null
+      }
+    ],
+    "http_header": [
+      {
+        "id": "30eda368-6932-440d-8816-a2e1019f1e30",
+        "asset_type": "http_header",
+        "asset_value": "security_headers_score:29",
+        "discovery_source": "http_header",
+        "sources": [
+          "http_header"
+        ],
+        "methods": [
+          "http_header"
+        ],
+        "evidence": [],
+        "raw_data": {
+          "present": [
+            {
+              "name": "HSTS",
+              "severity": "high",
+              "description": "Enforces HTTPS connections",
+              "header": "strict-transport-security",
+              "value": "max-age=15768000"
+            },
+            {
+              "name": "Permissions-Policy",
+              "severity": "low",
+              "description": "Controls browser features access",
+              "header": "permissions-policy",
+              "value": "interest-cohort=()"
+            }
+          ],
+          "missing": [
+            {
+              "name": "CSP",
+              "severity": "high",
+              "description": "Prevents XSS and injection attacks",
+              "header": "content-security-policy"
+            },
+            {
+              "name": "X-Frame-Options",
+              "severity": "medium",
+              "description": "Prevents clickjacking",
+              "header": "x-frame-options"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "severity": "medium",
+              "description": "Prevents MIME sniffing",
+              "header": "x-content-type-options"
+            },
+            {
+              "name": "Referrer-Policy",
+              "severity": "low",
+              "description": "Controls referrer information",
+              "header": "referrer-policy"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "severity": "low",
+              "description": "Legacy XSS filter (deprecated but informative)",
+              "header": "x-xss-protection"
+            }
+          ],
+          "total_present": 2,
+          "total_missing": 5,
+          "score": 29,
+          "rating": "weak"
+        },
+        "confidence_score": 1.0,
+        "validation_status": "validated",
+        "lifecycle_status": "discovered",
+        "first_seen": "2026-08-09T03:46:21.662872Z",
+        "last_seen": "2026-08-09T03:46:21.662872Z",
+        "last_verified": null
+      }
+    ]
+  },
+  "attack_surface": {
+    "domain": "tesla.com",
+    "risk_score": 46,
+    "severity": "medium",
+    "categories": {
+      "subdomains": {
+        "total": 9,
+        "risk": "medium",
+        "detail": "9 unique subdomains discovered"
+      },
+      "open_ports": {
+        "total_open": 2,
+        "high_risk_ports": [],
+        "risk": "low",
+        "detail": "2 open ports, 0 high-risk (DB/admin/remote access)"
+      },
+      "security_headers": {
+        "score": 29,
+        "missing": 5,
+        "risk": "high",
+        "detail": "Security header score: 29/100, 5 headers missing"
+      },
+      "certificate": {
+        "risk": "critical",
+        "issues": [
+          "No TLS certificate found"
+        ],
+        "detail": "No TLS certificate found"
+      },
+      "mail_security": {
+        "score": 100,
+        "rating": "strong",
+        "has_spf": true,
+        "has_dmarc": true,
+        "has_dkim": true,
+        "risk": "low",
+        "detail": "Mail security score: 100/100 (strong)"
+      },
+      "waf": {
+        "detected": true,
+        "providers": [
+          "Akamai"
+        ],
+        "risk": "low",
+        "detail": "WAF detected: Akamai"
+      },
+      "cloud_cdn": {
+        "cloud_providers": [],
+        "cdn_providers": [],
+        "is_cloud_hosted": false,
+        "has_cdn": false,
+        "risk": "info",
+        "detail": "Cloud: , CDN: "
+      },
+      "nameservers": {
+        "total": 10,
+        "zone_transfer_vulnerable": false,
+        "risk": "low",
+        "detail": "10 nameservers, zone transfer denied"
+      },
+      "technologies": {
+        "total": 0,
+        "categories": {},
+        "risk": "info",
+        "detail": "0 technologies detected"
+      }
+    },
+    "key_findings": [
+      "[HIGH] Security header score: 29/100, 5 headers missing",
+      "[CRITICAL] No TLS certificate found"
+    ],
+    "total_categories_assessed": 9,
+    "analyzers": {
+      "admin_portals": {
+        "domain": "tesla.com",
+        "admin_portals": [],
+        "total_found": 0,
+        "admin_subdomains_checked": 0,
+        "admin_paths_checked": 21,
+        "errors": []
+      },
+      "staging_environments": {
+        "domain": "tesla.com",
+        "staging_environments": [],
+        "total_found": 0,
+        "patterns_checked": 35,
+        "subdomains_matched": 0
+      },
+      "login_portals": {
+        "domain": "tesla.com",
+        "login_portals": [],
+        "total_found": 0,
+        "subdomains_checked": 3,
+        "paths_checked": 19
+      },
+      "api_endpoints": {
+        "domain": "tesla.com",
+        "api_endpoints": [],
+        "total_found": 0,
+        "subdomains_checked": 0,
+        "paths_checked": 28
+      }
+    }
+  },
+  "scan_config": {
+    "timeout": 300,
+    "max_collectors": 10,
+    "ports_scanned": 37
+  }
+}

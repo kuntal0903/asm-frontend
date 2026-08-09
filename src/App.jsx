@@ -24,13 +24,17 @@ import Sidebar         from './components/Sidebar';
 import Topbar          from './components/Topbar';
 import Dashboard       from './pages/Dashboard';
 import SettingsPage    from './pages/SettingsPage';
+import ScanPage        from './pages/ScanPage';
 import PlaceholderPage from './pages/PlaceholderPage';
+
+import api, { ApiError } from './services/api';
 
 // ── Styles ────────────────────────────────────────────────────────
 import './styles/layout.css';
 import './styles/components.css';
 import './styles/dashboard.css';
 import './styles/settings.css';
+import './styles/scanner.css';
 
 /**
  * Simple client-side router.
@@ -42,6 +46,9 @@ function PageRouter({ activePage, onExport, onVulnClick }) {
   }
   if (activePage === 'settings') {
     return <SettingsPage />;
+  }
+  if (activePage === 'scan') {
+    return <ScanPage />;
   }
   return <PlaceholderPage pageId={activePage} />;
 }
@@ -97,9 +104,29 @@ export default function App() {
    */
   const handleExport = useCallback(async (format) => {
     console.log(`[ASM] Export requested — format: ${format}`);
-    // Simulated API delay — remove this and add your fetch() above:
-    await new Promise((res) => setTimeout(res, 1800));
-    console.log(`[ASM] Export complete`);
+    try {
+      // Real API call — downloads the asset report in the requested format
+      const blob = await api.get(`/api/v1/assets/export?format=${format}`);
+      if (blob instanceof Blob) {
+        const url    = URL.createObjectURL(blob);
+        const anchor = document.createElement('a');
+        anchor.href     = url;
+        anchor.download = `asset-report-${Date.now()}.${format}`;
+        anchor.click();
+        URL.revokeObjectURL(url);
+      } else {
+        // Endpoint may not exist yet — graceful fallback
+        console.warn('[ASM] Export endpoint returned non-blob response:', blob);
+      }
+    } catch (err) {
+      // Endpoint may not exist yet on backend — log and continue
+      if (err instanceof ApiError && (err.status === 404 || err.status === 0)) {
+        console.warn('[ASM] Export endpoint not yet implemented on backend.');
+      } else {
+        console.error('[ASM] Export failed:', err.message);
+      }
+    }
+    console.log(`[ASM] Export handler complete`);
   }, []);
 
   const handleVulnClick = useCallback((vuln) => {

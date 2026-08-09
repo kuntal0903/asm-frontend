@@ -51,6 +51,11 @@ const NAV_ITEMS = [
     icon: Radar,
   },
   {
+    id: 'scan',
+    label: 'Domain Scan',
+    icon: Activity,
+  },
+  {
     id: 'alerts',
     label: 'Alerts',
     icon: Bell,

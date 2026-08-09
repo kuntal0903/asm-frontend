@@ -43,6 +43,7 @@ export default function Topbar({ activePage, onMobileToggle }) {
     assets:          'Asset Inventory',
     vulnerabilities: 'Vulnerabilities',
     threats:         'Threat Intelligence',
+    scan:            'Domain Scan',
     alerts:          'Alerts',
     settings:        'Settings',
   };
