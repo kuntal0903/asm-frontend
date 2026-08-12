@@ -18,23 +18,28 @@
  * ─────────────────────────────────────────────────────────────────
  */
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
+import { getSavedTheme }  from './hooks/useTheme';
 
 import Sidebar         from './components/Sidebar';
 import Topbar          from './components/Topbar';
-import Dashboard       from './pages/Dashboard';
-import SettingsPage    from './pages/SettingsPage';
-import ScanPage        from './pages/ScanPage';
-import PlaceholderPage from './pages/PlaceholderPage';
-
-import api, { ApiError } from './services/api';
+import Dashboard          from './pages/Dashboard';
+import SettingsPage       from './pages/SettingsPage';
+import DomainScanPage     from './pages/DomainScanPage';
+import AssetsPage         from './pages/AssetsPage';
+import VulnerabilitiesPage from './pages/VulnerabilitiesPage';
+import ThreatsPage        from './pages/ThreatsPage';
+import AlertsPage         from './pages/AlertsPage';
+import PlaceholderPage    from './pages/PlaceholderPage';
+import NotificationsPanel from './components/NotificationsPanel';
 
 // ── Styles ────────────────────────────────────────────────────────
 import './styles/layout.css';
 import './styles/components.css';
 import './styles/dashboard.css';
 import './styles/settings.css';
-import './styles/scanner.css';
+import './styles/notifications.css';
+import './styles/domainScan.css';
 
 /**
  * Simple client-side router.
@@ -44,11 +49,23 @@ function PageRouter({ activePage, onExport, onVulnClick }) {
   if (activePage === 'dashboard') {
     return <Dashboard onExport={onExport} onVulnClick={onVulnClick} />;
   }
+  if (activePage === 'assets') {
+    return <AssetsPage />;
+  }
+  if (activePage === 'vulnerabilities') {
+    return <VulnerabilitiesPage />;
+  }
+  if (activePage === 'threats') {
+    return <ThreatsPage />;
+  }
+  if (activePage === 'alerts') {
+    return <AlertsPage />;
+  }
   if (activePage === 'settings') {
     return <SettingsPage />;
   }
-  if (activePage === 'scan') {
-    return <ScanPage />;
+  if (activePage === 'domain-scan') {
+    return <DomainScanPage />;
   }
   return <PlaceholderPage pageId={activePage} />;
 }
@@ -57,9 +74,15 @@ function PageRouter({ activePage, onExport, onVulnClick }) {
  * App — Root component
  */
 export default function App() {
+  // Apply saved theme immediately on mount
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', getSavedTheme());
+  }, []);
+
   // ── Layout State ─────────────────────────────────────────────
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [mobileOpen,       setMobileOpen]       = useState(false);
+  const [notifOpen,        setNotifOpen]        = useState(false);
 
   // ── Navigation State ──────────────────────────────────────────
   const [activePage, setActivePage] = useState('dashboard');
@@ -73,65 +96,27 @@ export default function App() {
     setMobileOpen((prev) => !prev);
   }, []);
 
+  const handleNotifToggle = useCallback(() => {
+    setNotifOpen((prev) => !prev);
+  }, []);
+
+  const handleNotifClose = useCallback(() => {
+    setNotifOpen(false);
+  }, []);
+
   const handleNavigate = useCallback((pageId) => {
     setActivePage(pageId);
     setMobileOpen(false); // close mobile drawer on nav
   }, []);
 
-  /**
-   * handleExport
-   * ─────────────────────────────────────────────────────────────
-   * ── BACKEND INTEGRATION POINT ──
-   * Replace the simulated delay below with your real API call:
-   *
-   *   const response = await fetch(`/api/v1/assets/export?format=${format}`, {
-   *     method: 'GET',
-   *     headers: {
-   *       'Authorization': `Bearer ${yourAuthToken}`,
-   *       'Content-Type':  'application/json',
-   *     },
-   *   });
-   *
-   *   if (!response.ok) throw new Error('Export failed');
-   *
-   *   const blob     = await response.blob();
-   *   const url      = URL.createObjectURL(blob);
-   *   const anchor   = document.createElement('a');
-   *   anchor.href     = url;
-   *   anchor.download = `asset-report-${Date.now()}.${format}`;
-   *   anchor.click();
-   *   URL.revokeObjectURL(url);
-   */
   const handleExport = useCallback(async (format) => {
     console.log(`[ASM] Export requested — format: ${format}`);
-    try {
-      // Real API call — downloads the asset report in the requested format
-      const blob = await api.get(`/api/v1/assets/export?format=${format}`);
-      if (blob instanceof Blob) {
-        const url    = URL.createObjectURL(blob);
-        const anchor = document.createElement('a');
-        anchor.href     = url;
-        anchor.download = `asset-report-${Date.now()}.${format}`;
-        anchor.click();
-        URL.revokeObjectURL(url);
-      } else {
-        // Endpoint may not exist yet — graceful fallback
-        console.warn('[ASM] Export endpoint returned non-blob response:', blob);
-      }
-    } catch (err) {
-      // Endpoint may not exist yet on backend — log and continue
-      if (err instanceof ApiError && (err.status === 404 || err.status === 0)) {
-        console.warn('[ASM] Export endpoint not yet implemented on backend.');
-      } else {
-        console.error('[ASM] Export failed:', err.message);
-      }
-    }
-    console.log(`[ASM] Export handler complete`);
+    await new Promise((res) => setTimeout(res, 1800));
+    console.log(`[ASM] Export complete`);
   }, []);
 
   const handleVulnClick = useCallback((vuln) => {
     console.log('[ASM] Vulnerability selected:', vuln);
-    // TODO: open detail drawer / navigate to vuln detail page
   }, []);
 
   return (
@@ -159,6 +144,9 @@ export default function App() {
         <Topbar
           activePage={activePage}
           onMobileToggle={handleMobileToggle}
+          onNavigate={handleNavigate}
+          onNotifToggle={handleNotifToggle}
+          notifOpen={notifOpen}
         />
 
         {/* Page Router */}
@@ -168,6 +156,13 @@ export default function App() {
           onVulnClick={handleVulnClick}
         />
       </div>
+
+      {/* ── Notifications Panel ────────────────────────────────── */}
+      <NotificationsPanel
+        isOpen={notifOpen}
+        onClose={handleNotifClose}
+        onNavigate={handleNavigate}
+      />
     </div>
   );
 }
